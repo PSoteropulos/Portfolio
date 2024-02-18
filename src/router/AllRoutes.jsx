@@ -1,5 +1,5 @@
 import React from "react";
-import HomeLight from "../views/HomeLight";
+import HomeView from "../views/HomeView";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 
@@ -7,7 +7,7 @@ const AllRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomeLight />} />
+        <Route path="/" element={<HomeView />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

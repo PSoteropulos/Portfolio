@@ -1,25 +1,3 @@
-/*
-/*	Copyright (c) 2021 ib-themes
-/*	Author: ib-themes
-/*	This file is made for CURRENT TEMPLATE
-
-01)	TOKYO BASE
-02) TOKYO LEFTPART
-03) TOKYO RIGHTPART
-04) TOKYO HOME
-05) TOKYO ABOUT
-06) TOKYO PORTFOLIO
-07) TOKYO NEWS
-08) TOKYO CONTACT
-09) TOKYO MAGIC CURSOR
-10) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
-11) TOKYO 404
-
-
-/*---------------------------------------------------*/
-/*	01)	TOKYO BASE
-/*---------------------------------------------------*/
-
 html {
     overflow-x: hidden;
     padding: 0px;
@@ -248,10 +226,6 @@ h6 {
     }
 }
 
-/*---------------------------------------------------*/
-/*	02) TOKYO LEFTPART
-/*---------------------------------------------------*/
-
 .psot_portfolio_all_wrap .leftpart {
     width: 450px;
     height: 100vh;
@@ -269,10 +243,10 @@ h6 {
     height: auto;
 }
 .psot_portfolio_all_wrap .leftpart img {
-    max-width: 150px;
+    max-width: 250px;
 }
 .psot_portfolio_all_wrap .leftpart .menu {
-    padding: 40px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
     width: 100%;
     float: left;
 }
@@ -345,10 +319,6 @@ h6 {
     letter-spacing: 2px;
 }
 
-/*---------------------------------------------------*/
-/*	03) TOKYO RIGHTPART
-/*---------------------------------------------------*/
-
 .psot_portfolio_all_wrap .rightpart {
     width: 100%;
     min-height: 100vh;
@@ -420,9 +390,6 @@ h6 {
     animation-name: slideTop;
 }
 
-/*---------------------------------------------------*/
-/*	04) TOKYO HOME
-/*---------------------------------------------------*/
 
 .psot_portfolio_home {
     width: 100%;
@@ -515,9 +482,6 @@ h6 {
     height: 17px;
 }
 
-/*---------------------------------------------------*/
-/*	05) TOKYO ABOUT
-/*---------------------------------------------------*/
 
 .psot_portfolio_about {
     width: 100%;
@@ -806,9 +770,6 @@ h6 {
     opacity: 1;
 }
 
-/*---------------------------------------------------*/
-/*	06) TOKYO PORTFOLIO
-/*---------------------------------------------------*/
 
 .psot_portfolio_title {
     width: 100%;
@@ -995,9 +956,6 @@ ul.react-tabs__tab-list {
     position: relative;
 }
 
-/*---------------------------------------------------*/
-/*	07) TOKYO NEWS 
-/*---------------------------------------------------*/
 
 .psot_portfolio_news {
     width: 100%;
@@ -1434,9 +1392,6 @@ body.modal {
     height: 15px;
 }
 
-/*---------------------------------------------------*/
-/*	08) TOKYO CONTACT
-/*---------------------------------------------------*/
 
 .psot_portfolio_contact {
     width: 100%;
@@ -1519,9 +1474,6 @@ body.modal {
     font-weight: 500;
 }
 
-/*---------------------------------------------------*/
-/*	9) TOKYO MAGIC CURSOR
-/*---------------------------------------------------*/
 
 .psot_portfolio_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
     display: none;
@@ -1573,9 +1525,6 @@ body.modal {
     opacity: 0;
 }
 
-/*---------------------------------------------------*/
-/*	10) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
-/*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
     .psot_portfolio_all_wrap .leftpart {
@@ -1618,7 +1567,7 @@ body.modal {
         }
     }
     .psot_portfolio_all_wrap .leftpart .leftpart_inner .navbar-brand img {
-        max-width: 100px;
+        max-width: 150px;
     }
     .psot_portfolio_all_wrap .leftpart .leftpart_inner .copyright {
         display: none;
@@ -1848,9 +1797,6 @@ body.modal {
     }
 }
 
-/*---------------------------------------------------*/
-/*	11) TOKYO 404 
-/*---------------------------------------------------*/
 
 .psot_portfolio_section .container {
     height: 100%;

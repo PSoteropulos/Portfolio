@@ -120,9 +120,9 @@ body.dark .psot_portfolio_home .social li a {
 body.dark .psot_portfolio_all_wrap .leftpart img {
     filter: invert(1);
 }
-body.dark .psot_portfolio_home .avatar .image {
-    background-image: url(../../1.jpg) !important;
-}
+// body.dark .psot_portfolio_home .avatar .image {
+//     background-image: url(../../1.jpg) !important;
+// }
 body.dark {
     @media (max-width: 1200px) {
         .psot_portfolio_all_wrap .leftpart .leftpart_inner .menu ul {

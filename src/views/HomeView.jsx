@@ -11,7 +11,7 @@ import Contact from "../components/Contact";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
 
-const HomeLight = () => {
+const HomeView = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
@@ -25,8 +25,7 @@ const HomeLight = () => {
 
   return (
     <>
-      <PageTitle title="Home Regular" />
-      {/* End page title for seo */}
+      <PageTitle title="Home" />
 
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
@@ -86,14 +85,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
@@ -104,7 +103,6 @@ const HomeLight = () => {
                   </Tab>
                 </ul>
               </div>
-              {/* END MENU */}
 
               <CopyRight />
               {/* END COPYRIGHT */}
@@ -123,7 +121,6 @@ const HomeLight = () => {
                   <Home />
                 </div>
               </TabPanel>
-              {/* END HOME MENU TAB CONTENT */}
 
               <TabPanel>
                 <div
@@ -134,7 +131,6 @@ const HomeLight = () => {
                   <About />
                 </div>
               </TabPanel>
-              {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
                 <div
@@ -145,17 +141,14 @@ const HomeLight = () => {
                   <ServiceMain />
                 </div>
               </TabPanel>
-              {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
                 <Portfolio />
               </TabPanel>
-              {/* END PORTFOLIO MENU TAB CONTENT */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <News />
-              </TabPanel>
-              {/* END NEWS MENU TAB CONTENT */}
+              </TabPanel> */}
 
               <TabPanel>
                 <div
@@ -166,15 +159,12 @@ const HomeLight = () => {
                   <Contact />
                 </div>
               </TabPanel>
-              {/* END CONTACT MENU TAB CONTENT */}
             </div>
           </div>
         </div>
-        {/* END RIGHT PART CONTENT */}
       </Tabs>
-      {/* END TABS */}
     </>
   );
 };
 
-export default HomeLight;
+export default HomeView;
