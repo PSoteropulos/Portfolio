@@ -29,8 +29,8 @@ const AboutMain = () => {
           </div>
 
           <div className="psot_portfolio_button" data-position="left">
-            <a href="assets/img/cv.pdf" download>
-              <span>Download CV</span>
+            <a href="assets/docs/paul_soteropulos_resume_feb2024.pdf" download>
+              <span>Download Resume</span>
             </a>
           </div>
         </div>

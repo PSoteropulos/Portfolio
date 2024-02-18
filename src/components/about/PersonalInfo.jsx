@@ -6,27 +6,27 @@ const PersonalInfo = () => {
       id: 1,
       colClass: "left",
       info: [
-        {
-          id: 1,
-          name: "Birthday",
-          content: "01.07.1990",
-        },
-        {
-          id: 2,
-          name: "Age",
-          content: "32",
-        },
+        // {
+        //   id: 1,
+        //   name: "Birthday",
+        //   content: "01.07.1990",
+        // },
+        // {
+        //   id: 2,
+        //   name: "Age",
+        //   content: "32",
+        // },
         {
           id: 3,
-          name: "Address",
-          content: "Ave 11, New York, USA",
+          name: "Location",
+          content: "Greater New Orleans Area, LA",
         },
         {
           id: 4,
           name: "Email",
           content: (
             <>
-              <a href="mailto:tokyo@gmail.com">tokyo@gmail.com</a>
+              <a href="mailto:psoteropulos@gmail.com">psoteropulos@gmail.com</a>
             </>
           ),
         },
@@ -35,7 +35,7 @@ const PersonalInfo = () => {
           name: "Phone",
           content: (
             <>
-              <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a>
+              <a href="tel:+1 985 789 1690">+1 985 789 1690</a>
             </>
           ),
         },
@@ -52,23 +52,23 @@ const PersonalInfo = () => {
         },
         {
           id: 2,
-          name: "Study",
-          content: "Univercity of Texas",
+          name: "Expertise",
+          content: "Web Development",
         },
-        {
-          id: 3,
-          name: "Degree",
-          content: "Master",
-        },
-        {
-          id: 4,
-          name: "Interest",
-          content: "Playing Football",
-        },
+        // {
+        //   id: 3,
+        //   name: "Degree",
+        //   content: "Master",
+        // },
+        // {
+        //   id: 4,
+        //   name: "Interest",
+        //   content: "Playing Football",
+        // },
         {
           id: 5,
           name: "Freelance",
-          content: "Available",
+          content: "Currently Unavailable",
         },
       ],
     },

@@ -41,7 +41,6 @@ const HomeView = () => {
 
       <Tabs>
         <TabList>
-          {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
@@ -49,7 +48,6 @@ const HomeView = () => {
                   <img src="/assets/img/logo/dark.png" alt="brand" />
                 </Link>
               </div>
-              {/* END LOGO */}
 
               <div className="menu">
                 <ul>
@@ -69,14 +67,14 @@ const HomeView = () => {
                     />
                     <span className="menu_content">About</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/setting.svg"
                       alt="avatar"
                     />
                     <span className="menu_content">Service</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
@@ -132,7 +130,7 @@ const HomeView = () => {
                 </div>
               </TabPanel>
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div
                   data-aos="fade-right"
                   data-aos-duration="1200"
@@ -140,7 +138,7 @@ const HomeView = () => {
                 >
                   <ServiceMain />
                 </div>
-              </TabPanel>
+              </TabPanel> */}
 
               <TabPanel>
                 <Portfolio />
