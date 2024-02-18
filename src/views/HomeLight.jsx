@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Home from "../../components/Home";
-import About from "../../components/about/AboutMain";
-import Portfolio from "../../components/PortfolioCreative";
-import News from "../../components/News";
-import ServiceMain from "../../components/service/ServiceMain";
-import Contact from "../../components/Contact";
-import CopyRight from "../../components/CopyRight";
-import PageTitle from "../../components/PageTitle";
+import Home from "../components/Home";
+import About from "../components/about/AboutMain";
+import Portfolio from "../components/PortfolioCreative";
+import News from "../components/News";
+import ServiceMain from "../components/service/ServiceMain";
+import Contact from "../components/Contact";
+import CopyRight from "../components/CopyRight";
+import PageTitle from "../components/PageTitle";
 
 const HomeLight = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -117,7 +117,7 @@ const HomeLight = () => {
         {/* START RIGHT PART CONTENT */}
         <div className="rightpart">
           <div className="rightpart_in">
-            <div className="tokyo_tm_section">
+            <div className="psot_portfolio_section">
               <TabPanel>
                 <div data-aos="fade-right" data-aos-duration="1200">
                   <Home />

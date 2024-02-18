@@ -57,10 +57,10 @@ const Resume = () => {
     <>
       {resumeContent.map((item) => (
         <div className={item.colClass} key={item.id}>
-          <div className="tokyo_section_title">
+          <div className="psot_section_title">
             <h3>{item.title}</h3>
           </div>
-          <div className="tokyo_tm_resume_list">
+          <div className="psot_portfolio_resume_list">
             <ul>
               {item?.resume?.map((value) => (
                 <li key={value.id}>

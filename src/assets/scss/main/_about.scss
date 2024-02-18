@@ -2,7 +2,7 @@
 /*	06) TOKYO ABOUT
 /*---------------------------------------------------*/
 
-.tokyo_tm_about {
+.psot_portfolio_about {
     width: 100%;
     height: auto;
     clear: both;
@@ -10,20 +10,20 @@
     padding: 100px 0px 100px 0px;
 }
 
-.tokyo_tm_button {
+.psot_portfolio_button {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.tokyo_tm_button a {
+.psot_portfolio_button a {
     color: #fff;
     display: inline-block;
     background-color: #000;
     padding: 12px 40px 12px 40px;
     transition: all 0.3s ease;
 }
-.tokyo_tm_about .top_author_image {
+.psot_portfolio_about .top_author_image {
     width: 100%;
     height: auto;
     clear: both;
@@ -31,10 +31,10 @@
     position: relative;
     margin-bottom: 35px;
 }
-.tokyo_tm_about .top_author_image img {
+.psot_portfolio_about .top_author_image img {
     min-width: 100%;
 }
-.tokyo_tm_about .about_title {
+.psot_portfolio_about .about_title {
     width: 100%;
     height: auto;
     clear: both;
@@ -43,11 +43,11 @@
     padding-bottom: 20px;
     margin-bottom: 27px;
 }
-.tokyo_tm_about .about_title h3 {
+.psot_portfolio_about .about_title h3 {
     font-size: 22px;
     font-weight: 700;
 }
-.tokyo_tm_about .about_text {
+.psot_portfolio_about .about_text {
     width: 100%;
     height: auto;
     clear: both;
@@ -56,13 +56,13 @@
     padding-bottom: 31px;
     margin-bottom: 30px;
 }
-.tokyo_tm_about .about_text p {
+.psot_portfolio_about .about_text p {
     margin-bottom: 11px;
 }
-.tokyo_tm_about .about_text p:last-child {
+.psot_portfolio_about .about_text p:last-child {
     margin-bottom: 0px;
 }
-.tokyo_tm_short_info {
+.psot_portfolio_short_info {
     width: 100%;
     height: auto;
     clear: both;
@@ -72,35 +72,35 @@
     padding-bottom: 30px;
     margin-bottom: 40px;
 }
-.tokyo_tm_short_info .left {
+.psot_portfolio_short_info .left {
     width: 50%;
     padding-right: 50px;
 }
-.tokyo_tm_short_info .right {
+.psot_portfolio_short_info .right {
     width: 50%;
     padding-left: 50px;
 }
-.tokyo_tm_info {
+.psot_portfolio_info {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.tokyo_tm_info ul {
+.psot_portfolio_info ul {
     margin: 0px;
     list-style-type: none;
 }
-.tokyo_tm_info ul li {
+.psot_portfolio_info ul li {
     margin: 0px;
 }
-.tokyo_tm_info ul li span:first-child {
+.psot_portfolio_info ul li span:first-child {
     min-width: 100px;
     float: left;
     margin-right: 10px;
     font-weight: 700;
     color: #000;
 }
-.tokyo_tm_info ul li a {
+.psot_portfolio_info ul li a {
     color: #767676;
 
     -webkit-transition: all 0.3s ease;
@@ -109,10 +109,10 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.tokyo_tm_info ul li a:hover {
+.psot_portfolio_info ul li a:hover {
     color: #000;
 }
-.tokyo_tm_progressbox {
+.psot_portfolio_progressbox {
     width: 100%;
     height: auto;
     clear: both;
@@ -120,22 +120,22 @@
     background-color: #fff;
     padding: 93px 0px 100px 0px;
 }
-.tokyo_tm_progressbox .in {
+.psot_portfolio_progressbox .in {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     display: flex;
 }
-.tokyo_tm_progressbox .left {
+.psot_portfolio_progressbox .left {
     width: 50%;
     padding-right: 50px;
 }
-.tokyo_tm_progressbox .right {
+.psot_portfolio_progressbox .right {
     width: 50%;
     padding-left: 50px;
 }
-.tokyo_progress {
+.psot_progress {
     width: 100%;
     height: auto;
     clear: both;
@@ -178,55 +178,55 @@
     height: 100%;
     position: relative;
 }
-.tokyo_tm_skillbox {
+.psot_portfolio_skillbox {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 90px 0px 90px 0px;
 }
-.tokyo_tm_skillbox .in {
+.psot_portfolio_skillbox .in {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     display: flex;
 }
-.tokyo_tm_skillbox .left {
+.psot_portfolio_skillbox .left {
     width: 50%;
     padding-right: 50px;
 }
-.tokyo_tm_skillbox .right {
+.psot_portfolio_skillbox .right {
     width: 50%;
     padding-left: 50px;
 }
-.tokyo_section_title {
+.psot_section_title {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     margin-bottom: 40px;
 }
-.tokyo_section_title h3 {
+.psot_section_title h3 {
     font-size: 20px;
     font-weight: 700;
 }
-.tokyo_tm_skill_list {
+.psot_portfolio_skill_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.tokyo_tm_skill_list ul {
+.psot_portfolio_skill_list ul {
     margin: 0px;
     list-style-type: none;
 }
-.tokyo_tm_skill_list ul li {
+.psot_portfolio_skill_list ul li {
     margin: 0px;
     padding-left: 25px;
     position: relative;
 }
-.tokyo_tm_skill_list ul li .svg {
+.psot_portfolio_skill_list ul li .svg {
     color: #000;
     width: 10px;
     height: 10px;
@@ -235,7 +235,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.tokyo_tm_resumebox {
+.psot_portfolio_resumebox {
     width: 100%;
     height: auto;
     clear: both;
@@ -243,35 +243,35 @@
     background-color: #fff;
     padding: 93px 0px;
 }
-.tokyo_tm_resumebox .in {
+.psot_portfolio_resumebox .in {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     display: flex;
 }
-.tokyo_tm_resumebox .left {
+.psot_portfolio_resumebox .left {
     width: 50%;
     padding-right: 50px;
 }
-.tokyo_tm_resumebox .right {
+.psot_portfolio_resumebox .right {
     width: 50%;
     padding-left: 50px;
 }
-.tokyo_tm_resume_list {
+.psot_portfolio_resume_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.tokyo_tm_resume_list ul {
+.psot_portfolio_resume_list ul {
     margin: 0px;
     list-style-type: none;
     position: relative;
     display: inline-block;
     padding-top: 10px;
 }
-.tokyo_tm_resume_list ul:before {
+.psot_portfolio_resume_list ul:before {
     content: "";
     position: absolute;
     width: 1px;
@@ -280,7 +280,7 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.07);
 }
-.tokyo_tm_resume_list ul li {
+.psot_portfolio_resume_list ul li {
     margin: 0px;
     width: 100%;
     float: left;
@@ -288,10 +288,10 @@
     padding-left: 20px;
     padding-bottom: 45px;
 }
-.tokyo_tm_resume_list ul li:last-child {
+.psot_portfolio_resume_list ul li:last-child {
     padding-bottom: 0px;
 }
-.tokyo_tm_resume_list ul li:before {
+.psot_portfolio_resume_list ul li:before {
     content: "";
     position: absolute;
     height: 18px;
@@ -302,18 +302,18 @@
     left: -9px;
     top: 8px;
 }
-.tokyo_tm_resume_list ul li .list_inner {
+.psot_portfolio_resume_list ul li .list_inner {
     width: 100%;
     height: auto;
     clear: both;
     display: flex;
     position: relative;
 }
-.tokyo_tm_resume_list ul li .time {
+.psot_portfolio_resume_list ul li .time {
     width: 50%;
     padding-right: 20px;
 }
-.tokyo_tm_resume_list ul li .time span {
+.psot_portfolio_resume_list ul li .time span {
     display: inline-block;
     padding: 5px 25px;
     background-color: rgba(0, 0, 0, 0.05);
@@ -321,48 +321,48 @@
     font-size: 14px;
     white-space: nowrap;
 }
-.tokyo_tm_resume_list ul li .place {
+.psot_portfolio_resume_list ul li .place {
     width: 50%;
     padding-left: 20px;
 }
-.tokyo_tm_resume_list ul li .place h3 {
+.psot_portfolio_resume_list ul li .place h3 {
     font-size: 16px;
     margin-bottom: 2px;
     font-weight: 600;
 }
-.tokyo_tm_resume_list ul li .place span {
+.psot_portfolio_resume_list ul li .place span {
     font-size: 14px;
 }
-.tokyo_tm_testimonials {
+.psot_portfolio_testimonials {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 100px 0px;
 }
-.tokyo_tm_testimonials .list {
+.psot_portfolio_testimonials .list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     overflow: hidden;
 }
-.tokyo_tm_testimonials .list ul {
+.psot_portfolio_testimonials .list ul {
     margin: 0px;
     list-style-type: none;
     cursor: e-resize;
 }
-.tokyo_tm_testimonials .list ul li {
+.psot_portfolio_testimonials .list ul li {
     margin: 0px;
 }
-.tokyo_tm_testimonials .list ul li .list_inner {
+.psot_portfolio_testimonials .list ul li .list_inner {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     position: relative;
 }
-.tokyo_tm_testimonials .list ul li .text {
+.psot_portfolio_testimonials .list ul li .text {
     width: 100%;
     height: auto;
     clear: both;
@@ -372,7 +372,7 @@
     padding: 40px;
     margin-bottom: 30px;
 }
-.tokyo_tm_testimonials .list ul li .text:before {
+.psot_portfolio_testimonials .list ul li .text:before {
     position: absolute;
     content: "";
     height: 0px;
@@ -383,7 +383,7 @@
     border-top-color: #e5edf4;
     border-width: 18px 18px 0px 0px;
 }
-.tokyo_tm_testimonials .list ul li .text:after {
+.psot_portfolio_testimonials .list ul li .text:after {
     position: absolute;
     content: "";
     top: 100%;
@@ -395,14 +395,14 @@
     border-width: 14px 13px 0px 0px;
     margin-left: 2px;
 }
-.tokyo_tm_testimonials .list ul li .text i {
+.psot_portfolio_testimonials .list ul li .text i {
     position: absolute;
     z-index: 1;
     font-size: 30px;
     top: -29px;
     left: 50px;
 }
-.tokyo_tm_testimonials .details {
+.psot_portfolio_testimonials .details {
     width: 100%;
     height: auto;
     clear: both;
@@ -411,12 +411,12 @@
     align-items: center;
     padding-left: 20px;
 }
-.tokyo_tm_testimonials .details .image {
+.psot_portfolio_testimonials .details .image {
     position: relative;
     width: 60px;
     height: 60px;
 }
-.tokyo_tm_testimonials .details .image .main {
+.psot_portfolio_testimonials .details .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -427,75 +427,75 @@
     background-position: center;
     border-radius: 100%;
 }
-.tokyo_tm_testimonials .details .info {
+.psot_portfolio_testimonials .details .info {
     padding-left: 20px;
 }
-.tokyo_tm_testimonials .details .info h3 {
+.psot_portfolio_testimonials .details .info h3 {
     font-size: 16px;
     margin-bottom: 2px;
     font-weight: 600;
 }
-.tokyo_tm_testimonials .details .info span {
+.psot_portfolio_testimonials .details .info span {
     font-size: 14px;
 }
-.tokyo_tm_testimonials .owl-carousel .owl-stage-outer {
+.psot_portfolio_testimonials .owl-carousel .owl-stage-outer {
     overflow: hidden;
 }
-.tokyo_tm_testimonials .owl-carousel .owl-stage-outer {
+.psot_portfolio_testimonials .owl-carousel .owl-stage-outer {
     overflow: visible;
 }
-.tokyo_tm_testimonials .owl-item.active {
+.psot_portfolio_testimonials .owl-item.active {
     opacity: 1;
 }
-.tokyo_tm_testimonials .owl-item {
+.psot_portfolio_testimonials .owl-item {
     opacity: 0;
 }
 //  responsive
 @media (max-width: 768px) {
-    .tokyo_tm_short_info {
+    .psot_portfolio_short_info {
         flex-direction: column;
     }
-    .tokyo_tm_short_info .left {
+    .psot_portfolio_short_info .left {
         width: 100%;
         padding-right: 0px;
     }
-    .tokyo_tm_short_info .right {
+    .psot_portfolio_short_info .right {
         width: 100%;
         padding-left: 0px;
     }
-    .tokyo_tm_progressbox .in {
+    .psot_portfolio_progressbox .in {
         flex-direction: column;
     }
-    .tokyo_tm_progressbox .in .left {
+    .psot_portfolio_progressbox .in .left {
         width: 100%;
         padding-right: 0px;
         margin-bottom: 60px;
     }
-    .tokyo_tm_progressbox .in .right {
+    .psot_portfolio_progressbox .in .right {
         width: 100%;
         padding-left: 0px;
     }
-    .tokyo_tm_skillbox .in {
+    .psot_portfolio_skillbox .in {
         flex-direction: column;
     }
-    .tokyo_tm_skillbox .in .left {
+    .psot_portfolio_skillbox .in .left {
         width: 100%;
         padding-right: 0px;
         margin-bottom: 60px;
     }
-    .tokyo_tm_skillbox .in .right {
+    .psot_portfolio_skillbox .in .right {
         width: 100%;
         padding-left: 0px;
     }
-    .tokyo_tm_resumebox .in {
+    .psot_portfolio_resumebox .in {
         flex-direction: column;
     }
-    .tokyo_tm_resumebox .in .left {
+    .psot_portfolio_resumebox .in .left {
         width: 100%;
         padding-right: 0px;
         margin-bottom: 60px;
     }
-    .tokyo_tm_resumebox .in .right {
+    .psot_portfolio_resumebox .in .right {
         width: 100%;
         padding-left: 0px;
     }

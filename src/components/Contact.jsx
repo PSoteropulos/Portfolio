@@ -46,8 +46,8 @@ const Contact = () => {
   return (
     <>
       <div className="container">
-        <div className="tokyo_tm_contact">
-          <div className="tokyo_tm_title">
+        <div className="psot_portfolio_contact">
+          <div className="psot_portfolio_title">
             <div className="title_flex">
               <div className="left">
                 <span>Contact</span>
@@ -99,7 +99,7 @@ const Contact = () => {
                   {/* END SUBJECT MESSAGE */}
                 </ul>
               </div>
-              <div className="tokyo_tm_button">
+              <div className="psot_portfolio_button">
                 <button type="submit" className="ib-button">
                   Send Message
                 </button>

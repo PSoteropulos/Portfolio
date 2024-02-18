@@ -10,8 +10,8 @@ const ServiceMain = () => {
       {/* SERVICE */}
 
       <div className="container">
-        <div className="tokyo_tm_services">
-          <div className="tokyo_tm_title">
+        <div className="psot_portfolio_services">
+          <div className="psot_portfolio_title">
             <div className="title_flex">
               <div className="left">
                 <span>Services</span>
@@ -19,7 +19,7 @@ const ServiceMain = () => {
               </div>
             </div>
           </div>
-          {/* End tokyo_tm_title */}
+          {/* End psot_portfolio_title */}
 
           <div className="list">
             <ul>
@@ -31,9 +31,9 @@ const ServiceMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_partners">
+      <div className="psot_portfolio_partners">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="psot_section_title">
             <h3>Partners</h3>
           </div>
           <div className="partners_inner">
@@ -45,9 +45,9 @@ const ServiceMain = () => {
       </div>
       {/* End partners */}
 
-      <div className="tokyo_tm_facts">
+      <div className="psot_portfolio_facts">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="psot_section_title">
             <h3>Fun Facts</h3>
           </div>
           <div className="list">
@@ -59,9 +59,9 @@ const ServiceMain = () => {
       </div>
       {/* End funfacts */}
 
-      <div className="tokyo_tm_pricing">
+      <div className="psot_portfolio_pricing">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="psot_section_title">
             <h3>Pricing</h3>
           </div>
           <div className="list">

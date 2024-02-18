@@ -10,7 +10,7 @@ const App = () => {
     AOS.init();
   }, []);
   return (
-    <div className="tokyo_tm_all_wrap">
+    <div className="psot_portfolio_all_wrap">
       <AllRoutes />
       <ToastContainer />
     </div>
