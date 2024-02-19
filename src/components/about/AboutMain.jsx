@@ -9,7 +9,17 @@ import Skills from "./Skills";
 
 Modal.setAppElement("#root");
 
-const AboutMain = ({changeTab}) => {
+const AboutMain = ({ changeTab }) => {
+
+  const handleDownloadClick = () => {
+    const link = document.createElement('a');
+    link.href = '/assets/docs/paul_soteropulos_resume_feb2024.pdf';
+    link.download = 'Paul_Soteropulos_Resume_Feb2024.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="container">
@@ -29,9 +39,11 @@ const AboutMain = ({changeTab}) => {
           </div>
 
           <div className="psot_portfolio_button" data-position="left">
-            <a href="assets/docs/paul_soteropulos_resume_feb2024.pdf" download>
-              <span>Download Resume</span>
-            </a>
+            <p id="button" onClick={handleDownloadClick} style={{ cursor: 'pointer' }}>
+              <span>
+                Download Resume
+              </span>
+            </p>
           </div>
         </div>
       </div>

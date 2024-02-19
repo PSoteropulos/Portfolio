@@ -558,7 +558,7 @@ h6 {
     clear: both;
     float: left;
 }
-.psot_portfolio_button a,
+.psot_portfolio_button a, .psot_portfolio_button p,
 .ib-button {
     text-decoration: none;
     color: #fff;
@@ -577,7 +577,7 @@ h6 {
         outline: none;
     }
 }
-.psot_portfolio_button a:hover,
+.psot_portfolio_button a:hover, .psot_portfolio_button p:hover,
 .ib-button:hover {
     letter-spacing: 2px;
 }
