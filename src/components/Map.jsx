@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import ReactMapGL from "react-map-gl";
+import {Map as ReactMapGL} from "react-map-gl";
+// import 'mapbox-gl/dist/mapbox-gl.css';
 
 const Map = () => {
   const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
+    latitude: 30.199503,
+    longitude: -90.120376,
     zoom: 8,
   });
 

@@ -6,8 +6,6 @@ const NotFound = () => {
   return (
     <>
       <PageTitle title="404" />
-      {/* End page title for seo */}
-
       <div className="not-found-wrapper">
         <div className="leftpart">
           <div className="leftpart_inner">
@@ -16,23 +14,13 @@ const NotFound = () => {
                 <img src="/assets/img/logo/dark.png" alt="brand" />
               </Link>
             </div>
-            {/* END LOGO */}
             <div className="copyright">
               <p>
-                &copy; 2021 Tokyo <br /> Created by
-                <a
-                  href="https://themeforest.net/user/ib-themes"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Ib-Themes
-                </a>
+                &copy; {new Date().getFullYear()} Paul Soteropulos
               </p>
             </div>
-            {/* END COPYRIGHT */}
           </div>
         </div>
-        {/* END LEFT PART */}
 
         <div className="rightpart">
           <div className="rightpart_in">
@@ -44,7 +32,7 @@ const NotFound = () => {
                     <h3>Page not found</h3>
                     <p>The page you were looking for could not be found.</p>
                     <Link to="/" className="ib-button">
-                      Go to Home
+                      Return Home
                     </Link>
                   </div>
                 </div>
@@ -52,22 +40,13 @@ const NotFound = () => {
             </div>
           </div>
         </div>
-        {/* END RIGHT PART */}
 
         <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
-              <a
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ib-Themes
-              </a>
+              &copy; {new Date().getFullYear()} Paul Soteropulos
             </p>
           </div>
-          {/* END COPYRIGHT */}
         </footer>
       </div>
     </>

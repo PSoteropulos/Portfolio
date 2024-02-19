@@ -60,7 +60,7 @@ const AboutMain = () => {
         </div>
       </div>
 
-      <div className="psot_portfolio_testimonials">
+      {/* <div className="psot_portfolio_testimonials">
         <div className="container">
           <div className="psot_section_title">
             <h3>Testimonials</h3>
@@ -69,7 +69,7 @@ const AboutMain = () => {
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div> */}
 
     </>
   );

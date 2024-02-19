@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/about/AboutMain";
 import Portfolio from "../components/PortfolioCreative";
-import News from "../components/News";
-import ServiceMain from "../components/service/ServiceMain";
+// import News from "../components/News";
+// import ServiceMain from "../components/service/ServiceMain";
 import Contact from "../components/Contact";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
@@ -97,20 +97,16 @@ const HomeView = () => {
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Contact</span>
+                    <span className="menu_content">Contact</span>
                   </Tab>
                 </ul>
               </div>
 
               <CopyRight />
-              {/* END COPYRIGHT */}
             </div>
           </div>
-          {/* END LEFT MENU CONTENT */}
         </TabList>
-        {/* END SIDEBAR TABLIST */}
 
-        {/* START RIGHT PART CONTENT */}
         <div className="rightpart">
           <div className="rightpart_in">
             <div className="psot_portfolio_section">

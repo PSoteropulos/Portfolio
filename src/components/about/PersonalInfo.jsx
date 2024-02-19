@@ -68,7 +68,7 @@ const PersonalInfo = () => {
         {
           id: 5,
           name: "Freelance",
-          content: "Currently Unavailable",
+          content: "Some Availability",
         },
       ],
     },

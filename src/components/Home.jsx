@@ -17,7 +17,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Paul Soteropulos</h3>
             <p className="job">
-              Meticulous, logic-loving software developer with a passion for solving problems and implementing ideas with code.
+              Meticulous, adaptable software developer with a passion for solving problems and implementing ideas with code.
             </p>
             <Social />
           </div>

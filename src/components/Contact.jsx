@@ -18,7 +18,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          toast.success("Message Sent Successfully!", {
+          toast.success("Message sent successfully!", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -30,7 +30,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
-          toast.error("Ops Message Not Sent!", {
+          toast.error("Oops! Something went wrong. Message not sent!", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -55,10 +55,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          {/* END TITLE */}
 
           <Map />
-          {/* MENU WRAP */}
 
           <div className="fields">
             <form
@@ -77,7 +75,6 @@ const Contact = () => {
                       required
                     />
                   </li>
-                  {/* END FIRST NAME */}
 
                   <li>
                     <input
@@ -87,7 +84,6 @@ const Contact = () => {
                       required
                     />
                   </li>
-                  {/* END EMAIL */}
 
                   <li>
                     <textarea
@@ -96,7 +92,6 @@ const Contact = () => {
                       required
                     ></textarea>
                   </li>
-                  {/* END SUBJECT MESSAGE */}
                 </ul>
               </div>
               <div className="psot_portfolio_button">
@@ -104,14 +99,10 @@ const Contact = () => {
                   Send Message
                 </button>
               </div>
-              {/* END SUBMIT BUTTON */}
             </form>
-            {/* END FORM */}
           </div>
-          {/* END FIELDS */}
         </div>
       </div>
-      {/* END COTACT */}
     </>
   );
 };
