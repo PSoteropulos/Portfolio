@@ -56,6 +56,12 @@ const Resume = () => {
           institute: "Coding Dojo (Colorado Technical University)",
           degree: "Developer / Instruction Team",
         },
+        {
+          id: 4,
+          year: "June 2020 - June 2022",
+          institute: "Fox Press",
+          degree: "Distributions Director",
+        },
       ],
     },
   ];

@@ -30,12 +30,12 @@ const Skills = () => {
           skillName: "HTML5 + CSS3",
         },
         {
-          id: 1,
-          skillName: `JavaScript and TypeScript`,
+          id: 6,
+          skillName: "SQL and NoSQL",
         },
         {
-          id: 6,
-          skillName: "SQL",
+          id: 1,
+          skillName: `JavaScript and TypeScript`,
         },
       ],
     },
@@ -64,7 +64,11 @@ const Skills = () => {
         },
         {
           id: 5,
-          skillName: "Bootstrap, TailwindCSS, ARIA, DOM",
+          skillName: "Bootstrap, TailwindCSS, Sass/SCSS, ARIA, DOM",
+        },
+        {
+          id: 6,
+          skillName: "MySQL, PostgreSQL, SQLite, MongoDB",
         },
         {
           id: 1,

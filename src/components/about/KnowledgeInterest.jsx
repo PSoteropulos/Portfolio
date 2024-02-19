@@ -5,31 +5,35 @@ const KnowledgeInterest = () => {
     {
       id: 1,
       colClass: "left",
-      title: "Knowledge",
+      title: "Development Tools",
       content: [
-        " Bootstrap, Angular",
-        " React, Vue, Laravel",
-        " Stylus, Sass, Less",
-        " Gulp, Webpack, Grunt",
-        " Tweenmax, GSAP",
+        "IDEs and Editors: Visual Studio Code, VIM, IntelliJ, Eclipse/Spring Tool Suite, Rider, Visual Studio",
+        "Version Control: Git, GitHub, GitBash",
+        "Containerization: Docker",
+        "Package Managers and Build Tools/SDKs: npm, yarn, vite, pip, dotnet, JDK, Maven",
+        "Database Management Tools: MySQL Workbench, MongoDB Atlas and Compass, pgAdmin4",
+        "Deployment Tools: AWS, Google DNS, pm2"
       ],
     },
     {
       id: 2,
       colClass: "right",
-      title: "Interests",
+      title: "Web Tech and Collaboration",
       content: [
-        " Make UI/UX Design",
-        " Create Mobile App",
-        " Site Optimization",
-        " Custom Website",
-        "Learn Ecommerce",
+        "Project Management: Jira, Kanban",
+        "Web Servers: nginx, Apache",
+        "Security Tools: bcrypt, CertBot/SSL, JSON Web Token (JWT)",
+        "APIs and Protocols: REST API, Postman",
+        "Web Technologies: AJAX",
+        "Communication: Slack, Discord",
+        "Wireframing Tools: Whimsical, Figma, Balsamiq"
       ],
     },
   ];
 
   return (
     <>
+      {/* <h3 style={{display:"flex", textAlign:"center"}}>Tools</h3> */}
       {knowledgeContent.map((item) => (
         <div className={item.colClass} key={item.id}>
           <div className="psot_section_title">
