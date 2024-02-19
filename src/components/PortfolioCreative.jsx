@@ -204,7 +204,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/salish/salishhome.PNG"
+                              src="assets/img/app_screenshots/salish/salishhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail4"
@@ -233,7 +233,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -499,7 +499,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/moodring/moodringhome.PNG"
+                              src="assets/img/app_screenshots/moodring/moodringhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -528,7 +528,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/aisop/aisophome.PNG"
+                              src="assets/img/app_screenshots/aisop/aisophome.png"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -557,7 +557,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/cookbook/cookbookhome.PNG"
+                              src="assets/img/app_screenshots/cookbook/cookbookhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -586,7 +586,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/salish/salishhome.PNG"
+                              src="assets/img/app_screenshots/salish/salishhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail4"
@@ -614,7 +614,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -706,7 +706,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/aisop/aisophome.PNG"
+                              src="assets/img/app_screenshots/aisop/aisophome.png"
                               alt="Details"
                               data-tip
                               data-for="detail3"
@@ -735,7 +735,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -950,7 +950,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -1391,11 +1391,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/app_screenshots/algopractice/githubhome.PNG" alt="tumb" />
+                <img src="assets/img/app_screenshots/algopractice/githubhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/app_screenshots/algopractice/githubhome.PNG)",
+                    backgroundImage: "url(assets/img/app_screenshots/algopractice/githubhome.png)",
                   }}
                 ></div>
               </div>
@@ -1425,7 +1425,7 @@ const Portfolio = () => {
                   </ul>
                 </div>
               </div>
-              
+
               <div className="additional_images">
                 <ul className="gallery_zoom">
                   <li>
