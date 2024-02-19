@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/about/AboutMain";
 import Portfolio from "../components/PortfolioCreative";
+// import Portfolio from "../components/Portfolio";
 // import News from "../components/News";
 // import ServiceMain from "../components/service/ServiceMain";
 import Contact from "../components/Contact";

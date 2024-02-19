@@ -19,7 +19,7 @@ const PersonalInfo = () => {
         {
           id: 3,
           name: "Location",
-          content: "Greater New Orleans Area, LA",
+          content: "Greater New Orleans Area, Louisiana",
         },
         {
           id: 4,
