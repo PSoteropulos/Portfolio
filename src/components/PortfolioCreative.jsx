@@ -233,7 +233,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -614,7 +614,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -735,7 +735,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -950,7 +950,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/algopractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -1391,11 +1391,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG" alt="tumb" />
+                <img src="assets/img/app_screenshots/algopractice/githubhome.PNG" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/app_screenshots/AlgoPractice/githubhome.PNG)",
+                    backgroundImage: "url(assets/img/app_screenshots/algopractice/githubhome.PNG)",
                   }}
                 ></div>
               </div>
@@ -1420,7 +1420,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">GitHub Repo</span>
-                      <span><a target="_blank" href="https://github.com/psoteropulos/AlgoPractice">GitHub</a></span>
+                      <span><a target="_blank" href="https://github.com/psoteropulos/algopractice">GitHub</a></span>
                     </li>
                   </ul>
                 </div>
