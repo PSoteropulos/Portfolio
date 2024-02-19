@@ -1425,6 +1425,7 @@ const Portfolio = () => {
                   </ul>
                 </div>
               </div>
+              
               <div className="additional_images">
                 <ul className="gallery_zoom">
                   <li>
