@@ -96,37 +96,42 @@ const Portfolio = () => {
             </div>
 
             <div className="portfolio_filter">
-              {/* <Tabs> */}
-              {/* <TabList> */}
-              {/* <Tab>All</Tab>
-                  <Tab>Vimeo</Tab>
-                  <Tab>Youtube</Tab>
-                  <Tab>Photography</Tab> */}
-              {/* <Tab>Details</Tab> */}
-              {/* </TabList> */}
-              <div className="list_wrapper">
-                {/* <TabPanel> */}
-                <ul className="portfolio_list">
-                  {/* <li data-aos="fade-right" data-aos-duration="1200">
+              <Tabs>
+                <TabList>
+                  <Tab>All</Tab>
+                  <Tab>JavaScript/TypeScript</Tab>
+                  <Tab>Python</Tab>
+                  <Tab>Java</Tab>
+                  <Tab>C#</Tab>
+                  <Tab>Misc</Tab>
+                </TabList>
+                <div className="list_wrapper">
+                  <TabPanel>
+                    <ul className="portfolio_list">
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
                         <div className="inner">
-                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                          <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Vimeo"
+                              src="/public/assets/img/app_screenshots/moodring/moodringhome.png"
+                              alt="Details"
                               data-tip
-                              data-for="vimeo"
-                              onClick={() => setOpen2(true)}
+                              data-for="detail1"
+                              onClick={toggleModal1}
                             />
                             <ReactTooltip
-                              id="vimeo"
+                              id="detail1"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Teresa Butler</h5>
-                                <span>Vimeo</span>
+                                <h5>moodRing</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -141,22 +146,21 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
-                              alt="Youtube"
+                              src="/public/assets/img/app_screenshots/aisop/aisophome.png"
+                              alt="Details"
                               data-tip
-                              data-for="youtube"
-                              onClick={() => setOpen(true)}
+                              data-for="detail2"
+                              onClick={toggleModal2}
                             />
                             <ReactTooltip
-                              id="youtube"
+                              id="detail2"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ashely Flores</h5>
-                                <span>Youtube</span>
+                                <h5>Aisop</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -166,501 +170,316 @@ const Portfolio = () => {
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
-                        data-aos-delay="200"
+                        data-aos-delay="100"
                       >
-                        <div className="inner">
-                          <div className="entry psot_portfolio_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/4.jpg"
-                              thumbnail="assets/img/portfolio/4.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/4.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Derek Smith</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="300"
-                      >
-                        <div className="inner">
-                          <div className="entry psot_portfolio_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/3.jpg"
-                              thumbnail="assets/img/portfolio/3.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/3.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li> */}
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail1"
-                          onClick={toggleModal1}
-                        />
-
-                        <ReactTooltip
-                          id="detail1"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>moodRing</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail2"
-                          onClick={toggleModal2}
-                        />
-
-                        <ReactTooltip
-                          id="detail2"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>CookBook</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail3"
-                          onClick={toggleModal3}
-                        />
-
-                        <ReactTooltip
-                          id="detail3"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Aisop</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail4"
-                          onClick={toggleModal4}
-                        />
-
-                        <ReactTooltip
-                          id="detail4"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Salish</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail5"
-                          onClick={toggleModal5}
-                        />
-
-                        <ReactTooltip
-                          id="detail5"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Algos</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail6"
-                          onClick={toggleModal6}
-                        />
-
-                        <ReactTooltip
-                          id="detail6"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Python 1</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail7"
-                          onClick={toggleModal7}
-                        />
-
-                        <ReactTooltip
-                          id="detail7"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Python 2</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail8"
-                          onClick={toggleModal8}
-                        />
-
-                        <ReactTooltip
-                          id="detail8"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>MERN 1</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail9"
-                          onClick={toggleModal9}
-                        />
-
-                        <ReactTooltip
-                          id="detail9"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>MERN 2</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail10"
-                          onClick={toggleModal10}
-                        />
-
-                        <ReactTooltip
-                          id="detail10"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Java 1</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail11"
-                          onClick={toggleModal11}
-                        />
-
-                        <ReactTooltip
-                          id="detail11"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>Java 2</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail12"
-                          onClick={toggleModal12}
-                        />
-
-                        <ReactTooltip
-                          id="detail12"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>C# 1</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <div className="inner">
-                      <div className="entry psot_portfolio_portfolio_animation_wrap">
-                        <img
-                          src="assets/img/portfolio/6.jpg"
-                          alt="Details"
-                          data-tip
-                          data-for="detail13"
-                          onClick={toggleModal13}
-                        />
-
-                        <ReactTooltip
-                          id="detail13"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                          <div>
-                            <h5>C# 2</h5>
-                          </div>
-                        </ReactTooltip>
-                      </div>
-                    </div>
-                  </li>
-
-
-                </ul>
-                {/* </TabPanel> */}
-
-                {/* <TabPanel>
-                    <ul className="portfolio_list">
-                      <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Vimeo"
+                              src="/public/assets/img/app_screenshots/cookbook/cookbookhome.png"
+                              alt="Details"
                               data-tip
-                              data-for="vimeo"
-                              onClick={() => setOpen2(true)}
+                              data-for="detail3"
+                              onClick={toggleModal3}
                             />
                             <ReactTooltip
-                              id="vimeo"
+                              id="detail3"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Teresa Butler</h5>
-                                <span>Vimeo</span>
+                                <h5>CookBook</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/Salish/salishhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail4"
+                              onClick={toggleModal4}
+                            />
+                            <ReactTooltip
+                              id="detail4"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Salish</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail5"
+                              onClick={toggleModal5}
+                            />
+                            <ReactTooltip
+                              id="detail5"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Algos</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail6"
+                              onClick={toggleModal6}
+                            />
+                            <ReactTooltip
+                              id="detail6"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Python 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail7"
+                              onClick={toggleModal7}
+                            />
+                            <ReactTooltip
+                              id="detail7"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Python 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail8"
+                              onClick={toggleModal8}
+                            />
+                            <ReactTooltip
+                              id="detail8"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>MERN 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail9"
+                              onClick={toggleModal9}
+                            />
+                            <ReactTooltip
+                              id="detail9"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>MERN 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail10"
+                              onClick={toggleModal10}
+                            />
+                            <ReactTooltip
+                              id="detail10"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Java 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail11"
+                              onClick={toggleModal11}
+                            />
+                            <ReactTooltip
+                              id="detail11"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Java 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail12"
+                              onClick={toggleModal12}
+                            />
+                            <ReactTooltip
+                              id="detail12"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>C# 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail13"
+                              onClick={toggleModal13}
+                            />
+                            <ReactTooltip
+                              id="detail13"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>C# 2</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -671,67 +490,117 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
-                      <li data-aos="fade-right" data-aos-duration="1200">
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
                         <div className="inner">
-                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                          <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
-                              alt="Youtube"
+                              src="/public/assets/img/app_screenshots/moodring/moodringhome.PNG"
+                              alt="Details"
                               data-tip
-                              data-for="youtube"
-                              onClick={() => setOpen(true)}
+                              data-for="detail1"
+                              onClick={toggleModal1}
                             />
                             <ReactTooltip
-                              id="youtube"
+                              id="detail1"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ashely Flores</h5>
-                                <span>Youtube</span>
+                                <h5>moodRing</h5>
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
-                    </ul>
-                  </TabPanel>
 
-                  <TabPanel>
-                    <ul className="portfolio_list">
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
                         <div className="inner">
-                          <div className="entry psot_portfolio_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/4.jpg"
-                              thumbnail="assets/img/portfolio/4.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/4.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
+                          <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/aisop/aisophome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail1"
+                              onClick={toggleModal2}
+                            />
                             <ReactTooltip
-                              id="shot"
+                              id="detail1"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Derek Smith</h5>
-                                <span>Shot</span>
+                                <h5>Aisop</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/CookBook/cookbookhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail1"
+                              onClick={toggleModal3}
+                            />
+                            <ReactTooltip
+                              id="detail1"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>CookBook</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/Salish/salishhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail4"
+                              onClick={toggleModal4}
+                            />
+                            <ReactTooltip
+                              id="detail4"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Salish</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -744,66 +613,372 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/3.jpg"
-                              thumbnail="assets/img/portfolio/3.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/3.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
+                            <img
+                              src="/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail5"
+                              onClick={toggleModal5}
+                            />
                             <ReactTooltip
-                              id="shot2"
+                              id="detail5"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
+                                <h5>Algos</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail8"
+                              onClick={toggleModal8}
+                            />
+                            <ReactTooltip
+                              id="detail8"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>MERN 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail9"
+                              onClick={toggleModal9}
+                            />
+                            <ReactTooltip
+                              id="detail9"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>MERN 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <ul className="portfolio_list">
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/aisop/aisophome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail3"
+                              onClick={toggleModal2}
+                            />
+                            <ReactTooltip
+                              id="detail3"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Aisop</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail5"
+                              onClick={toggleModal5}
+                            />
+                            <ReactTooltip
+                              id="detail5"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Algos</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail6"
+                              onClick={toggleModal6}
+                            />
+                            <ReactTooltip
+                              id="detail6"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Python 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail7"
+                              onClick={toggleModal7}
+                            />
+                            <ReactTooltip
+                              id="detail7"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Python 2</h5>
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
                     </ul>
-                  </TabPanel> */}
+                  </TabPanel>
 
-              </div>
-              {/* END LIST WRAPPER */}
-              {/* </Tabs> */}
+                  <TabPanel>
+                    <ul className="portfolio_list">
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail10"
+                              onClick={toggleModal10}
+                            />
+                            <ReactTooltip
+                              id="detail10"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Java 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail11"
+                              onClick={toggleModal11}
+                            />
+                            <ReactTooltip
+                              id="detail11"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Java 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <ul className="portfolio_list">
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail12"
+                              onClick={toggleModal12}
+                            />
+                            <ReactTooltip
+                              id="detail12"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>C# 1</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/coming_soon.jpg"
+                              alt="Details"
+                              data-tip
+                              data-for="detail13"
+                              onClick={toggleModal13}
+                            />
+                            <ReactTooltip
+                              id="detail13"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>C# 2</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <ul className="portfolio_list">
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="100"
+                      >
+                        <div className="inner">
+                          <div className="entry psot_portfolio_portfolio_animation_wrap">
+                            <img
+                              src="/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              alt="Details"
+                              data-tip
+                              data-for="detail5"
+                              onClick={toggleModal5}
+                            />
+                            <ReactTooltip
+                              id="detail5"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Algos</h5>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </TabPanel>
+
+                </div>
+              </Tabs>
             </div>
           </div>
         </div>
       </Gallery>
-      {/* popup vidoe for youtube modal activation */}
-      {/* <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="1gyTUHP6ne8"
-        onClose={() => setOpen(false)}
-      /> */}
-
-      {/* popup vidoe for vimeo modal activation */}
-      {/* <ModalVideo
-        channel="vimeo"
-        autoplay
-        isOpen={isOpen2}
-        videoId="100171151"
-        onClose={() => setOpen2(false)}
-      /> */}
 
       <Modal
         isOpen={isOpen1}
@@ -820,55 +995,82 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/app_screenshots/moodring/moodringhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/app_screenshots/moodring/moodringhome.png)",
                   }}
                 ></div>
               </div>
               <div className="portfolio_main_title">
-                <h3>moodRing</h3>
+                <h3>moodRING</h3>
                 <span>MERN</span>
               </div>
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    This is one of my first real fully fledged passion projects. Built with full stack JavaScript (MERN), Spotify APIs, and Bootstrap, <a href="https://moodring.net"><b>moodRING</b></a> allows users to experience something that harkens back to the golden age of social media. It is the juxtaposition of music, mood tracking, and light social media fun. Users can search for a song, input a verbal description of how the song makes them feel, then adjust some sliders to dial in a color that they associate with that mood and/or song. On The Feed, all entries are displayed, and if logged in a user can click another user's name to see all of the moods they have posted. A logged user can also interact with their own moods to edit or delete them.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized: </b> ReactJS, NodeJS, ExpressJS, Mongoose, MongoDB, Spotify Web API, Spotify Embed API, Axios, React ContextAPI, React-Router-DOM, Bootstrap, JSON Web Token, Date-FNS, bcrypt, CORS, dotenv, npm, AWS EC2, Google DNS, SSL, Visual Studio Code, git, GitHub
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span><a href="https://moodring.net">moodRING</a></span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span><a href="https://github.com/psoteropulos/moodRING">Repo</a></span>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/moodring/moodring1.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/moodring/moodring1.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/moodring/moodring2.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/moodring/moodring2.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/moodring/moodring3.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/moodring/moodring3.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -890,55 +1092,82 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/app_screenshots/aisop/aisophome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/app_screenshots/aisop/aisophome.png)",
                   }}
                 ></div>
               </div>
               <div className="portfolio_main_title">
-                <h3>CookBook</h3>
-                <span>MERN</span>
+                <h3>Aisop</h3>
+                <span>React + Flask</span>
               </div>
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Sojourn Creations collaboration <a href="https://aisop.io"><b>Aisop</b></a>. Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized: </b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span><a href="https://aisop.io">Aisop</a></span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Private Repo. Sorry!</span>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/aisop/aisopgameplay.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/aisop/aisopgameplay.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/aisop/aisopabout.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/aisop/aisopabout.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/aisop/aisop1.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/aisop/aisop1.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -960,55 +1189,82 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/app_screenshots/cookbook/cookbookhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/app_screenshots/cookbook/cookbookhome.png)",
                   }}
                 ></div>
               </div>
               <div className="portfolio_main_title">
-                <h3>Aisop</h3>
-                <span>React+Flask</span>
+                <h3>CookBook</h3>
+                <span>MERN</span>
               </div>
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Four member group collaboration, <a href="https://cookbookapp.net"><b>CookBook</b></a>. Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized: </b> Coming Soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span><a href="https://cookbookapp.net">CookBook</a></span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span><a href="https://github.com/CookBook-Group-Project/CookBook">Repo</a></span>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/cookbook/cookbook1.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/cookbook/cookbook1.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/cookbook/cookbook2.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/cookbook/cookbook2.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/cookbook/cookbook4.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/cookbook/cookbook4.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1030,11 +1286,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/app_screenshots/salish/salishhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/app_screenshots/salish/salishhome.png)",
                   }}
                 ></div>
               </div>
@@ -1045,40 +1301,75 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    App summary
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b>
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Private App</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
+                      <span className="first">Code</span>
+                      <span>Private Repo</span>
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="first">Date</span>
                       <span>March 07, 2021</span>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <span className="first">Share</span>
                       <Social />
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
+              </div>
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/salish/salishnew.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/salish/salishnew.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/salish/salishinvoices.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/salish/salishinvoices.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/salish/salishadmin.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/salish/salishadmin.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1100,11 +1391,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/app_screenshots/AlgoPractice/githubhome.PNG)",
                   }}
                 ></div>
               </div>
@@ -1115,40 +1406,67 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">LeetCode Profile</span>
+                      <span><a href="https://leetcode.com/Paulsoteropulos/">LeetCode</a></span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">GitHub Repo</span>
+                      <span><a href="https://github.com/psoteropulos/AlgoPractice">GitHub</a></span>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/algopractice/leetcode.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/algopractice/leetcode.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/algopractice/leetcodeproblem.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/algopractice/leetcodeproblem.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/app_screenshots/algopractice/repo.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/app_screenshots/algopractice/repo.png)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1170,11 +1488,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+              <img src="/public/assets/img/coming_soon.jpg" alt="thumb"/>
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1185,41 +1503,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1240,11 +1585,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+              <img src="/public/assets/img/coming_soon.jpg" alt="thumb"/>
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1255,41 +1600,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1310,11 +1682,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+              <img src="/public/assets/img/coming_soon.jpg" alt="thumb"/>
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1325,41 +1697,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1395,41 +1794,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1450,11 +1876,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+              <img src="/public/assets/img/coming_soon.jpg" alt="thumb"/>
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1465,41 +1891,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1520,11 +1973,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1535,41 +1988,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1590,11 +2070,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1605,41 +2085,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1660,11 +2167,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1675,41 +2182,68 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Description coming soon.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    <b>Technologies utilized:</b> Coming soon.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">URL</span>
+                      <span>Coming soon</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">Code</span>
+                      <span>Coming soon</span>
                     </li>
                   </ul>
                 </div>
               </div>
+              {/* <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="/public/assets/img/coming_soon.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(/public/assets/img/coming_soon.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> */}
             </div>
           </div>
         </div>
