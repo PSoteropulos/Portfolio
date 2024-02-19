@@ -262,7 +262,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail6"
@@ -291,7 +291,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail7"
@@ -320,7 +320,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -349,7 +349,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -378,7 +378,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail10"
@@ -407,7 +407,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail11"
@@ -436,7 +436,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail12"
@@ -465,7 +465,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail13"
@@ -643,7 +643,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -672,7 +672,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -764,7 +764,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail6"
@@ -793,7 +793,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail7"
@@ -826,7 +826,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail10"
@@ -855,7 +855,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail11"
@@ -888,7 +888,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail12"
@@ -917,7 +917,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="/public/assets/img/coming_soon.jpg"
+                              src="/public/assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail13"
