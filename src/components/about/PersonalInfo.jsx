@@ -53,7 +53,7 @@ const PersonalInfo = () => {
         {
           id: 2,
           name: "Expertise",
-          content: "Web Development",
+          content: "Full Stack Development",
         },
         // {
         //   id: 3,

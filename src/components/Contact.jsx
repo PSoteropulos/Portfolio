@@ -23,7 +23,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log("Email result ", result)
+          // console.log("Email result ", result)
           toast.success("Message sent successfully!", {
             position: "top-right",
             autoClose: 2000,
@@ -36,7 +36,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
-          console.log("Email error ", error)
+          // console.log("Email error ", error)
           toast.error("Oops! Something went wrong. Message not sent!", {
             position: "top-right",
             autoClose: 2000,
