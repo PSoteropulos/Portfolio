@@ -6,18 +6,24 @@ import Map from "./Map";
 
 const Contact = () => {
   const form = useRef();
+  const service = import.meta.env.VITE_EMAILJS_SERVICE_ID
+  const template = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+  const key = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        service,
+        template,
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        {
+          publicKey: `${key}`
+        }
       )
       .then(
         (result) => {
+          console.log("Email result ", result)
           toast.success("Message sent successfully!", {
             position: "top-right",
             autoClose: 2000,
@@ -30,6 +36,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
+          console.log("Email error ", error)
           toast.error("Oops! Something went wrong. Message not sent!", {
             position: "top-right",
             autoClose: 2000,

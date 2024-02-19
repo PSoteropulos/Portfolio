@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import Testimonial from "./Testimonial";
+// import Testimonial from "./Testimonial";
 import Intro from "./Intro";
 import KnowledgeInterest from "./KnowledgeInterest";
 import PersonalInfo from "./PersonalInfo";
@@ -9,7 +9,7 @@ import Skills from "./Skills";
 
 Modal.setAppElement("#root");
 
-const AboutMain = () => {
+const AboutMain = ({changeTab}) => {
   return (
     <>
       <div className="container">
@@ -23,7 +23,7 @@ const AboutMain = () => {
             </div>
           </div>
 
-          <Intro />
+          <Intro changeTab={changeTab} />
           <div className="psot_portfolio_short_info">
             <PersonalInfo />
           </div>

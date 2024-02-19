@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import {Map as ReactMapGL} from "react-map-gl";
-// import 'mapbox-gl/dist/mapbox-gl.css';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const Map = () => {
+  const mapToken = import.meta.env.VITE_MAP_TOKEN
   const [viewport, setViewport] = useState({
     latitude: 30.199503,
     longitude: -90.120376,
@@ -15,7 +16,7 @@ const Map = () => {
       <div className="map">
         <ReactMapGL
           mapStyle={"mapbox://style/mapbox/dark-v9"}
-          mapboxApiAccessToken="pk.eyJ1IjoiYmF5YXppZGgiLCJhIjoiY2tvemdwc3ByMDg1YzJubzQxcDR0cDR3dyJ9.s1zXEb5OPqgBDcmupj3GBA"
+          mapboxAccessToken={`${mapToken}`}
           {...viewport}
           onViewportChange={(nextViewport) => setViewport(nextViewport)}
         />

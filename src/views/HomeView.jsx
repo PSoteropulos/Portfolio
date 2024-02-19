@@ -13,6 +13,11 @@ import PageTitle from "../components/PageTitle";
 
 const HomeView = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const changeTab = (index) => {
+    setActiveIndex(index);
+  };
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode);
@@ -39,7 +44,7 @@ const HomeView = () => {
         )}
       </button>
 
-      <Tabs>
+      <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
         <TabList>
           <div className="leftpart">
             <div className="leftpart_inner">
@@ -122,7 +127,7 @@ const HomeView = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  <About />
+                  <About changeTab={changeTab}/>
                 </div>
               </TabPanel>
 
