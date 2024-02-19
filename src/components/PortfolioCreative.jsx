@@ -117,7 +117,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/moodring/moodringhome.png"
+                              src="assets/img/app_screenshots/moodring/moodringhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -131,7 +131,7 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>moodRing</h5>
+                                <h5>moodRING</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -146,7 +146,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/aisop/aisophome.png"
+                              src="assets/img/app_screenshots/aisop/aisophome.png"
                               alt="Details"
                               data-tip
                               data-for="detail2"
@@ -175,7 +175,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/cookbook/cookbookhome.png"
+                              src="assets/img/app_screenshots/cookbook/cookbookhome.png"
                               alt="Details"
                               data-tip
                               data-for="detail3"
@@ -204,7 +204,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/Salish/salishhome.PNG"
+                              src="assets/img/app_screenshots/salish/salishhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail4"
@@ -233,7 +233,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -262,7 +262,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/flask.jpg"
+                              src="assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail6"
@@ -291,7 +291,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/flask.jpg"
+                              src="assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail7"
@@ -320,7 +320,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -349,7 +349,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -378,7 +378,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/spring.png"
+                              src="assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail10"
@@ -407,7 +407,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/spring.png"
+                              src="assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail11"
@@ -436,7 +436,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/dotnet.png"
+                              src="assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail12"
@@ -465,7 +465,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/dotnet.png"
+                              src="assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail13"
@@ -499,7 +499,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/moodring/moodringhome.PNG"
+                              src="assets/img/app_screenshots/moodring/moodringhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -513,7 +513,7 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>moodRing</h5>
+                                <h5>moodRING</h5>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -528,7 +528,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/aisop/aisophome.PNG"
+                              src="assets/img/app_screenshots/aisop/aisophome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -557,7 +557,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div data-tip data-for="detail" className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/CookBook/cookbookhome.PNG"
+                              src="assets/img/app_screenshots/cookbook/cookbookhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail1"
@@ -586,7 +586,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/Salish/salishhome.PNG"
+                              src="assets/img/app_screenshots/salish/salishhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail4"
@@ -614,7 +614,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -643,7 +643,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -672,7 +672,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -706,7 +706,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/aisop/aisophome.PNG"
+                              src="assets/img/app_screenshots/aisop/aisophome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail3"
@@ -735,7 +735,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -764,7 +764,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/flask.jpg"
+                              src="assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail6"
@@ -793,7 +793,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/flask.jpg"
+                              src="assets/img/portfolio/flask.jpg"
                               alt="Details"
                               data-tip
                               data-for="detail7"
@@ -826,7 +826,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/spring.png"
+                              src="assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail10"
@@ -855,7 +855,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/spring.png"
+                              src="assets/img/portfolio/spring.png"
                               alt="Details"
                               data-tip
                               data-for="detail11"
@@ -888,7 +888,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/dotnet.png"
+                              src="assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail12"
@@ -917,7 +917,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/portfolio/dotnet.png"
+                              src="assets/img/portfolio/dotnet.png"
                               alt="Details"
                               data-tip
                               data-for="detail13"
@@ -950,7 +950,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src=" assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
+                              src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG"
                               alt="Details"
                               data-tip
                               data-for="detail5"
@@ -995,11 +995,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/app_screenshots/moodring/moodringhome.png" alt="tumb" />
+                <img src="assets/img/app_screenshots/moodring/moodringhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/app_screenshots/moodring/moodringhome.png)",
+                    backgroundImage: "url(assets/img/app_screenshots/moodring/moodringhome.png)",
                   }}
                 ></div>
               </div>
@@ -1010,7 +1010,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    This is one of my first real fully fledged passion projects. Built with full stack JavaScript (MERN), Spotify APIs, and Bootstrap, <a href="https://moodring.net"><b>moodRING</b></a> allows users to experience something that harkens back to the golden age of social media. It is the juxtaposition of music, mood tracking, and light social media fun. Users can search for a song, input a verbal description of how the song makes them feel, then adjust some sliders to dial in a color that they associate with that mood and/or song. On The Feed, all entries are displayed, and if logged in a user can click another user's name to see all of the moods they have posted. A logged user can also interact with their own moods to edit or delete them.
+                    This is one of my first real fully fledged passion projects. Built with full stack JavaScript (MERN), Spotify APIs, and Bootstrap, <a target="_blank" href="https://moodring.net"><b>moodRING</b></a> allows users to experience something that harkens back to the golden age of social media. It is the juxtaposition of music, mood tracking, and light social media fun. Users can search for a song, input a verbal description of how the song makes them feel, then adjust some sliders to dial in a color that they associate with that mood and/or song. On The Feed, all entries are displayed, and if logged in a user can click another user's name to see all of the moods they have posted. A logged user can also interact with their own moods to edit or delete them.
                   </p>
                   <p>
                     <b>Technologies utilized: </b> ReactJS, NodeJS, ExpressJS, Mongoose, MongoDB, Spotify Web API, Spotify Embed API, Axios, React ContextAPI, React-Router-DOM, Bootstrap, JSON Web Token, Date-FNS, bcrypt, CORS, dotenv, npm, AWS EC2, Google DNS, SSL, Visual Studio Code, git, GitHub
@@ -1020,11 +1020,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">URL</span>
-                      <span><a href="https://moodring.net">moodRING</a></span>
+                      <span><a target="_blank" href="https://moodring.net">moodRING</a></span>
                     </li>
                     <li>
                       <span className="first">Code</span>
-                      <span><a href="https://github.com/psoteropulos/moodRING">Repo</a></span>
+                      <span><a target="_blank" href="https://github.com/psoteropulos/moodRING">Repo</a></span>
                     </li>
                   </ul>
                 </div>
@@ -1034,11 +1034,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/moodring/moodring1.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/moodring/moodring1.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/moodring/moodring1.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/moodring/moodring1.png)",
                           }}
                         ></div>
                       </div>
@@ -1047,11 +1047,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/moodring/moodring2.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/moodring/moodring2.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/moodring/moodring2.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/moodring/moodring2.png)",
                           }}
                         ></div>
                       </div>
@@ -1060,11 +1060,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/moodring/moodring3.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/moodring/moodring3.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/moodring/moodring3.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/moodring/moodring3.png)",
                           }}
                         ></div>
                       </div>
@@ -1092,11 +1092,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/app_screenshots/aisop/aisophome.png" alt="tumb" />
+                <img src="assets/img/app_screenshots/aisop/aisophome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/app_screenshots/aisop/aisophome.png)",
+                    backgroundImage: "url(assets/img/app_screenshots/aisop/aisophome.png)",
                   }}
                 ></div>
               </div>
@@ -1107,7 +1107,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Sojourn Creations collaboration <a href="https://aisop.io"><b>Aisop</b></a>. Description coming soon.
+                    Sojourn Creations collaboration <a target="_blank" href="https://aisop.io"><b>Aisop</b></a>. Description coming soon.
                   </p>
                   <p>
                     <b>Technologies utilized: </b> Coming soon.
@@ -1117,7 +1117,7 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">URL</span>
-                      <span><a href="https://aisop.io">Aisop</a></span>
+                      <span><a target="_blank" href="https://aisop.io">Aisop</a></span>
                     </li>
                     <li>
                       <span className="first">Code</span>
@@ -1131,11 +1131,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/aisop/aisopgameplay.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/aisop/aisopgameplay.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/aisop/aisopgameplay.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/aisop/aisopgameplay.png)",
                           }}
                         ></div>
                       </div>
@@ -1144,11 +1144,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/aisop/aisopabout.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/aisop/aisopabout.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/aisop/aisopabout.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/aisop/aisopabout.png)",
                           }}
                         ></div>
                       </div>
@@ -1157,11 +1157,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/aisop/aisop1.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/aisop/aisop1.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/aisop/aisop1.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/aisop/aisop1.png)",
                           }}
                         ></div>
                       </div>
@@ -1189,11 +1189,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/app_screenshots/cookbook/cookbookhome.png" alt="tumb" />
+                <img src="assets/img/app_screenshots/cookbook/cookbookhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/app_screenshots/cookbook/cookbookhome.png)",
+                    backgroundImage: "url(assets/img/app_screenshots/cookbook/cookbookhome.png)",
                   }}
                 ></div>
               </div>
@@ -1204,7 +1204,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Four member group collaboration, <a href="https://cookbookapp.net"><b>CookBook</b></a>. Description coming soon.
+                    Four member group collaboration, <a target="_blank" href="https://cookbookapp.net"><b>CookBook</b></a>. Description coming soon.
                   </p>
                   <p>
                     <b>Technologies utilized: </b> Coming Soon.
@@ -1214,11 +1214,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">URL</span>
-                      <span><a href="https://cookbookapp.net">CookBook</a></span>
+                      <span><a target="_blank" href="https://cookbookapp.net">CookBook</a></span>
                     </li>
                     <li>
                       <span className="first">Code</span>
-                      <span><a href="https://github.com/CookBook-Group-Project/CookBook">Repo</a></span>
+                      <span><a target="_blank" href="https://github.com/CookBook-Group-Project/CookBook">Repo</a></span>
                     </li>
                   </ul>
                 </div>
@@ -1228,11 +1228,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/cookbook/cookbook1.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/cookbook/cookbook1.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/cookbook/cookbook1.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/cookbook/cookbook1.png)",
                           }}
                         ></div>
                       </div>
@@ -1241,11 +1241,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/cookbook/cookbook2.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/cookbook/cookbook2.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/cookbook/cookbook2.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/cookbook/cookbook2.png)",
                           }}
                         ></div>
                       </div>
@@ -1254,11 +1254,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/cookbook/cookbook4.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/cookbook/cookbook4.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/cookbook/cookbook4.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/cookbook/cookbook4.png)",
                           }}
                         ></div>
                       </div>
@@ -1286,11 +1286,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/app_screenshots/salish/salishhome.png" alt="tumb" />
+                <img src="assets/img/app_screenshots/salish/salishhome.png" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/app_screenshots/salish/salishhome.png)",
+                    backgroundImage: "url(assets/img/app_screenshots/salish/salishhome.png)",
                   }}
                 ></div>
               </div>
@@ -1333,11 +1333,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/salish/salishnew.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/salish/salishnew.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/salish/salishnew.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/salish/salishnew.png)",
                           }}
                         ></div>
                       </div>
@@ -1346,11 +1346,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/salish/salishinvoices.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/salish/salishinvoices.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/salish/salishinvoices.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/salish/salishinvoices.png)",
                           }}
                         ></div>
                       </div>
@@ -1359,11 +1359,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/salish/salishadmin.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/salish/salishadmin.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/salish/salishadmin.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/salish/salishadmin.png)",
                           }}
                         ></div>
                       </div>
@@ -1391,11 +1391,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/app_screenshots/AlgoPractice/githubhome.PNG" alt="tumb" />
+                <img src="assets/img/app_screenshots/AlgoPractice/githubhome.PNG" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/app_screenshots/AlgoPractice/githubhome.PNG)",
+                    backgroundImage: "url(assets/img/app_screenshots/AlgoPractice/githubhome.PNG)",
                   }}
                 ></div>
               </div>
@@ -1416,11 +1416,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">LeetCode Profile</span>
-                      <span><a href="https://leetcode.com/Paulsoteropulos/">LeetCode</a></span>
+                      <span><a target="_blank" href="https://leetcode.com/Paulsoteropulos/">LeetCode</a></span>
                     </li>
                     <li>
                       <span className="first">GitHub Repo</span>
-                      <span><a href="https://github.com/psoteropulos/AlgoPractice">GitHub</a></span>
+                      <span><a target="_blank" href="https://github.com/psoteropulos/AlgoPractice">GitHub</a></span>
                     </li>
                   </ul>
                 </div>
@@ -1430,11 +1430,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/algopractice/leetcode.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/algopractice/leetcode.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/algopractice/leetcode.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/algopractice/leetcode.png)",
                           }}
                         ></div>
                       </div>
@@ -1443,11 +1443,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/algopractice/leetcodeproblem.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/algopractice/leetcodeproblem.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/algopractice/leetcodeproblem.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/algopractice/leetcodeproblem.png)",
                           }}
                         ></div>
                       </div>
@@ -1456,11 +1456,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/app_screenshots/algopractice/repo.png" alt="thumb" />
+                        <img src="assets/img/app_screenshots/algopractice/repo.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/app_screenshots/algopractice/repo.png)",
+                            backgroundImage: "url(assets/img/app_screenshots/algopractice/repo.png)",
                           }}
                         ></div>
                       </div>
@@ -1488,11 +1488,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1527,11 +1527,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1540,11 +1540,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1553,11 +1553,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1585,11 +1585,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1624,11 +1624,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1637,11 +1637,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1650,11 +1650,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1682,11 +1682,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1721,11 +1721,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1734,11 +1734,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1747,11 +1747,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1818,11 +1818,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1831,11 +1831,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1844,11 +1844,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1876,11 +1876,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -1915,11 +1915,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1928,11 +1928,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1941,11 +1941,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -1973,11 +1973,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -2012,11 +2012,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2025,11 +2025,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2038,11 +2038,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2070,11 +2070,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -2109,11 +2109,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2122,11 +2122,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2135,11 +2135,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2167,11 +2167,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                <img src="assets/img/coming_soon.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url( assets/img/coming_soon.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>
@@ -2206,11 +2206,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2219,11 +2219,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -2232,11 +2232,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src=" assets/img/coming_soon.jpg" alt="thumb" />
+                        <img src="assets/img/coming_soon.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url( assets/img/coming_soon.jpg)",
+                            backgroundImage: "url(assets/img/coming_soon.jpg)",
                           }}
                         ></div>
                       </div>
