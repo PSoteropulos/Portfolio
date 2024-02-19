@@ -18,7 +18,7 @@ const Contact = () => {
         template,
         form.current,
         {
-          publicKey: `${key}`
+          publicKey: key
         }
       )
       .then(
