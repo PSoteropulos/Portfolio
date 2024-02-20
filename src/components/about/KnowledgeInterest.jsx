@@ -8,7 +8,7 @@ const KnowledgeInterest = () => {
       title: "Development Tools",
       content: [
         "IDEs and Editors: Visual Studio Code, VIM, IntelliJ, Eclipse/Spring Tool Suite, Rider, Visual Studio",
-        "Version Control: Git, GitHub, GitBash",
+        "Version Control: Git, GitHub",
         "Containerization: Docker",
         "Package Managers and Build Tools/SDKs: npm, yarn, vite, pip, dotnet, JDK, Maven",
         "Database Management Tools: MySQL Workbench, MongoDB Atlas and Compass, pgAdmin4",
