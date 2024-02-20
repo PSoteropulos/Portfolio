@@ -320,7 +320,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.png"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -349,7 +349,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.png"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -643,7 +643,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.png"
                               alt="Details"
                               data-tip
                               data-for="detail8"
@@ -672,7 +672,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry psot_portfolio_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/mern.jpg"
+                              src="assets/img/portfolio/mern.png"
                               alt="Details"
                               data-tip
                               data-for="detail9"
@@ -1780,11 +1780,11 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="assets/img/coming_soon.jpg" alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(assets/img/coming_soon.jpg)",
                   }}
                 ></div>
               </div>

@@ -19,7 +19,7 @@ const PersonalInfo = () => {
         {
           id: 3,
           name: "Location",
-          content: "Greater New Orleans Area, Louisiana",
+          content: "Greater New Orleans Area, LA, USA",
         },
         {
           id: 4,
@@ -30,26 +30,12 @@ const PersonalInfo = () => {
             </>
           ),
         },
-        {
-          id: 5,
-          name: "Phone",
-          content: (
-            <>
-              <a href="tel:+1 985 789 1690">+1 985 789 1690</a>
-            </>
-          ),
-        },
       ],
     },
     {
       id: 2,
       colClass: "right",
       info: [
-        {
-          id: 1,
-          name: "Nationality",
-          content: "USA",
-        },
         {
           id: 2,
           name: "Expertise",
