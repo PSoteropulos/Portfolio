@@ -13,8 +13,8 @@ const AboutMain = ({ changeTab }) => {
 
   const handleDownloadClick = () => {
     const link = document.createElement('a');
-    link.href = 'assets/docs/Paul_Soteropulos_Resume_Feb2024.pdf';
-    link.download = 'Paul_Soteropulos_Resume_Feb2024.pdf';
+    link.href = 'assets/docs/PaulSoteropulosResumeFeb2024.pdf';
+    link.download = 'PaulSoteropulosResumeFeb2024.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
