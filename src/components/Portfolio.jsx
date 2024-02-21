@@ -294,20 +294,21 @@ const Portfolio = () => {
         </div>
       </SimpleReactLightbox>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="1gyTUHP6ne8"
         onClose={() => setOpen(false)}
-      />
-      <ModalVideo
+      /> */}
+
+      {/* <ModalVideo
         channel="vimeo"
         autoplay
         isOpen={isOpen2}
         videoId="100171151"
         onClose={() => setOpen2(false)}
-      />
+      /> */}
 
       <Modal
         isOpen={isOpen3}
