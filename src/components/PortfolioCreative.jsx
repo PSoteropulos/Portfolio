@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { Tooltip as ReactTooltip } from 'react-tooltip'
-// import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
-import Social from "./Social";
+import ProjectList from "../data/ProjectData";
+// import ModalVideo from "react-modal-video";
+// import Social from "./Social";
 
 const Portfolio = () => {
   // for popup video for youtube
