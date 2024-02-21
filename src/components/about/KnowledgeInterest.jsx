@@ -33,7 +33,6 @@ const KnowledgeInterest = () => {
 
   return (
     <>
-      {/* <h3 style={{display:"flex", textAlign:"center"}}>Tools</h3> */}
       {knowledgeContent.map((item) => (
         <div className={item.colClass} key={item.id}>
           <div className="psot_section_title">

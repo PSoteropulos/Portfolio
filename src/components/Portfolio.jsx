@@ -35,23 +35,16 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/* END psot_portfolio_TITLE */}
 
             <div className="portfolio_filter">
               <Tabs>
                 <TabList>
                   <Tab>All</Tab>
-                  {/* All */}
                   <Tab>Vimeo</Tab>
-                  {/* For Vimeo */}
                   <Tab>Youtube</Tab>
-                  {/* For Youtube */}
                   <Tab>Photography</Tab>
-                  {/* For Images */}
                   <Tab>Details</Tab>
-                  {/* For Popup Details */}
                 </TabList>
-                {/* END TABLIST */}
 
                 <div className="list_wrapper">
                   <TabPanel>
@@ -71,7 +64,6 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END VIMEO */}
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -91,7 +83,6 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END YOUTUBE */}
                       <SRLWrapper>
                         <li
                           data-aos="fade-right"
@@ -113,7 +104,6 @@ const Portfolio = () => {
                             </div>
                           </div>
                         </li>
-                        {/* END SHOT */}
                         <li
                           data-aos="fade-right"
                           data-aos-duration="1200"
@@ -134,7 +124,6 @@ const Portfolio = () => {
                             </div>
                           </div>
                         </li>
-                        {/* END SHOT */}
                       </SRLWrapper>
                       <li
                         data-aos="fade-right"
@@ -155,7 +144,6 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -175,11 +163,8 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
                     </ul>
-                    {/* END PORTFOLIO LIST */}
                   </TabPanel>
-                  {/* END ALL All */}
 
                   <TabPanel>
                     <ul className="portfolio_list">
@@ -198,11 +183,8 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END VIMEO */}
                     </ul>
-                    {/* END PORTFOLIO LIST */}
                   </TabPanel>
-                  {/* END VIMEO VIDEO */}
 
                   <TabPanel>
                     <ul className="portfolio_list">
@@ -221,11 +203,8 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END YOUTUBE */}
                     </ul>
-                    {/* END PORTFOLIO LIST */}
                   </TabPanel>
-                  {/* END YOUTUBE VIDEO */}
 
                   <TabPanel>
                     <ul className="portfolio_list">
@@ -246,7 +225,6 @@ const Portfolio = () => {
                             </div>
                           </div>
                         </li>
-                        {/* END SHOT */}
                         <li
                           data-aos="fade-right"
                           data-aos-duration="1200"
@@ -267,12 +245,9 @@ const Portfolio = () => {
                             </div>
                           </div>
                         </li>
-                        {/* END SHOT */}
                       </SRLWrapper>
                     </ul>
-                    {/* END PORTFOLIO LIST */}
                   </TabPanel>
-                  {/* END PHOTOGRAHY */}
 
                   <TabPanel>
                     <ul className="portfolio_list">
@@ -291,7 +266,6 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -311,20 +285,15 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
                     </ul>
-                    {/* END DETAILS GALLERY */}
                   </TabPanel>
-                  {/* END Details Gallery */}
                 </div>
-                {/* END LIST WRAPPER */}
               </Tabs>
             </div>
           </div>
         </div>
       </SimpleReactLightbox>
 
-      {/* all modal video and popup goes here */}
       <ModalVideo
         channel="youtube"
         autoplay
@@ -332,7 +301,6 @@ const Portfolio = () => {
         videoId="1gyTUHP6ne8"
         onClose={() => setOpen(false)}
       />
-      {/* End Youtube Modal video */}
       <ModalVideo
         channel="vimeo"
         autoplay
@@ -340,9 +308,7 @@ const Portfolio = () => {
         videoId="100171151"
         onClose={() => setOpen2(false)}
       />
-      {/* End Vimeo Modal Video */}
 
-      {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen3}
         onRequestClose={toggleModalThree}
@@ -355,7 +321,6 @@ const Portfolio = () => {
           <button className="close-modal" onClick={toggleModalThree}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
-          {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
@@ -367,12 +332,10 @@ const Portfolio = () => {
                   }}
                 ></div>
               </div>
-              {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Selena Gomez</h3>
                 <span>Details</span>
               </div>
-              {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
@@ -407,12 +370,10 @@ const Portfolio = () => {
                     <li>
                       <span className="first">Share</span>
                       <Social />
-                      {/* END SOCIAL SHARE */}
                     </li>
                   </ul>
                 </div>
               </div>
-              {/* main_details */}
 
               <div className="additional_images">
                 <ul className="gallery_zoom">
@@ -429,7 +390,6 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
@@ -443,7 +403,6 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
@@ -457,18 +416,13 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                 </ul>
               </div>
             </div>
           </div>
-          {/* END BOX INNER */}
         </div>
-        {/* END MODALBOX NEWS */}
       </Modal>
-      {/* END MODAL FOR PORTFOLIO DETAILS */}
 
-      {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen4}
         onRequestClose={toggleModalFour}
@@ -481,7 +435,6 @@ const Portfolio = () => {
           <button className="close-modal" onClick={toggleModalFour}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
-          {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
@@ -493,12 +446,10 @@ const Portfolio = () => {
                   }}
                 ></div>
               </div>
-              {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Ave Simone</h3>
                 <span>Details</span>
               </div>
-              {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
@@ -533,12 +484,10 @@ const Portfolio = () => {
                     <li>
                       <span className="first">Share</span>
                       <Social />
-                      {/* END SOCIAL SHARE */}
                     </li>
                   </ul>
                 </div>
               </div>
-              {/* main_details */}
 
               <div className="additional_images">
                 <ul className="gallery_zoom">
@@ -555,7 +504,6 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
@@ -569,7 +517,6 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
@@ -583,16 +530,12 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </li>
-                  {/* END SHOT */}
                 </ul>
               </div>
             </div>
           </div>
-          {/* END BOX INNER */}
         </div>
-        {/* END MODALBOX NEWS */}
       </Modal>
-      {/* END MODAL FOR PORTFOLIO DETAILS */}
     </>
   );
 };
