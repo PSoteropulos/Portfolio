@@ -21,20 +21,21 @@
 }
 .psot_portfolio_about .top_author_image {
     width: 100%;
+    max-width: 420px;
     height: auto;
-    clear: both;
-    float: left;
     position: relative;
-    margin-bottom: 35px;
+    margin: 0 auto 35px;
 }
 .psot_portfolio_about .top_author_image img {
-    min-width: 100%;
+    width: 100%;
+    border-radius: 12px;
 }
 .psot_portfolio_about .about_title {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
+    text-align: center;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 20px;
     margin-bottom: 27px;
