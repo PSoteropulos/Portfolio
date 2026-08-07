@@ -1557,6 +1557,19 @@ body.modal {
         background-color: #fff;
         box-shadow: 0 0 30px rgba(62, 68, 125, 0.08);
     }
+    .psot_portfolio_all_wrap .psot_logo_mark {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    .psot_portfolio_all_wrap .psot_logo_mark .psot_logo_icon {
+        width: 36px;
+        height: 36px;
+    }
+    .psot_portfolio_all_wrap .psot_logo_mark .psot_logo_text {
+        font-size: 16px;
+    }
     .psot_portfolio_all_wrap .leftpart .leftpart_inner {
         width: 100%;
         display: flex;
