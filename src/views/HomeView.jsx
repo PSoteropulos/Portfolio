@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Home from "../components/Home";
-import About from "../components/about/AboutMain";
-import Portfolio from "../components/PortfolioCreative";
-// import Portfolio from "../components/Portfolio";
-// import News from "../components/News";
-// import ServiceMain from "../components/service/ServiceMain";
+import Logo from "../components/Logo";
+import { Link } from "react-router-dom";
 import Contact from "../components/Contact";
+import { useEffect, useState } from "react";
+import { FaMoon, FaSun } from "react-icons/fa";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
+import About from "../components/about/AboutMain";
+import Portfolio from "../components/PortfolioCreative";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+// import News from "../components/News";
+// import Portfolio from "../components/Portfolio";
+// import ServiceMain from "../components/service/ServiceMain";
 
 const HomeView = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -50,8 +51,8 @@ const HomeView = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
+                <Link className="navbar-brand" to="/" onClick={() => setActiveIndex(0)}>
+                  <Logo />
                 </Link>
               </div>
 
@@ -128,7 +129,7 @@ const HomeView = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  <About changeTab={changeTab}/>
+                  <About changeTab={changeTab} />
                 </div>
               </TabPanel>
 

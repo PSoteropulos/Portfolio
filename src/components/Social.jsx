@@ -1,5 +1,3 @@
-import React from "react";
-
 const SocialShare = [
   {
     iconName: "linkedin",
@@ -9,13 +7,8 @@ const SocialShare = [
     iconName: "github",
     link: "https://github.com/PSoteropulos",
   },
-  {
-    iconName: "leetcode",
-    link: "https://leetcode.com/Paulsoteropulos/",
-  },
-
-  
 ];
+
 const Social = () => {
   return (
     <>
@@ -32,7 +25,6 @@ const Social = () => {
           </li>
         ))}
       </ul>
-      {/* END SOCIAL */}
     </>
   );
 };

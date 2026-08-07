@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
 import Social from "./Social";
+import Modal from "react-modal";
+import { useState } from "react";
 
 Modal.setAppElement("#root");
 
@@ -35,7 +35,6 @@ const News = () => {
               </div>
             </div>
           </div>
-          {/* END TITLE */}
 
           <ul>
             <li data-aos="fade-right" data-aos-duration="1200">
@@ -49,7 +48,7 @@ const News = () => {
                     }}
                   ></div>
                 </div>
-                {/* END IMAGE */}
+
                 <div className="details">
                   <div className="extra">
                     <p className="date">
@@ -57,7 +56,6 @@ const News = () => {
                       <span>05 April 2021</span>
                     </p>
                   </div>
-                  {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalOne}>
                     Format releases a new tool that enables direct video hosting
@@ -67,11 +65,9 @@ const News = () => {
                       <span>Read More</span>
                     </a>
                   </div>
-                  {/* END READ MORE BUTTON */}
-                </div>
-                {/* END DETAILS */}
 
-                {/* START MODAL */}
+                </div>
+
                 <Modal
                   isOpen={isOpen}
                   onRequestClose={toggleModalOne}
@@ -84,7 +80,7 @@ const News = () => {
                     <button className="close-modal" onClick={toggleModalOne}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
-                    {/* END CLOSE ICON */}
+
                     <div className="box_inner">
                       <div className="description_wrap scrollable">
                         <div className="image">
@@ -96,7 +92,7 @@ const News = () => {
                             }}
                           ></div>
                         </div>
-                        {/* END IMAGE */}
+
                         <div className="details">
                           <div className="extra">
                             <p className="date">
@@ -109,7 +105,7 @@ const News = () => {
                             hosting
                           </h3>
                         </div>
-                        {/* END DETAILS */}
+
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
@@ -154,7 +150,7 @@ const News = () => {
                                 artistic heights.
                               </p>
                             </div>
-                            {/* END QUOTEBOX */}
+
                             <p>
                               Pretend everything is new and that you haven’t
                               seen it before, and then you will be free to
@@ -173,24 +169,19 @@ const News = () => {
                               need to leave the house again.
                             </p>
                           </div>
-                          {/* END DESCRIPTION */}
+
                           <div className="news_share">
                             <span>Share:</span>
                             <Social />
-                            {/* END SOCIAL SHARE */}
                           </div>
-                          {/* END NEWS SHARE */}
                         </div>
                       </div>
                     </div>
-                    {/* END BOX INNER */}
                   </div>
-                  {/* END MODALBOX NEWS */}
                 </Modal>
-                {/* END MODAL */}
+
               </div>
             </li>
-            {/* END SINGLE BLOG */}
 
             <li
               data-aos="fade-right"
@@ -207,7 +198,6 @@ const News = () => {
                     }}
                   ></div>
                 </div>
-                {/* END IMAGE */}
 
                 <div className="details">
                   <div className="extra">
@@ -216,7 +206,6 @@ const News = () => {
                       <span>22 March 2021</span>
                     </p>
                   </div>
-                  {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalTwo}>
                     Sony announced two new full frame cameras with zero fanfare
@@ -226,7 +215,6 @@ const News = () => {
                       <span>Read More</span>
                     </a>
                   </div>
-                  {/* END READ MORE BUTTON */}
                 </div>
 
                 <Modal
@@ -241,7 +229,7 @@ const News = () => {
                     <button className="close-modal" onClick={toggleModalTwo}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
-                    {/* END CLOSE MODAL */}
+
                     <div className="box_inner">
                       <div className="description_wrap scrollable">
                         <div className="image">
@@ -253,7 +241,7 @@ const News = () => {
                             }}
                           ></div>
                         </div>
-                        {/* END IMAGE */}
+
                         <div className="details">
                           <div className="extra">
                             <p className="date">
@@ -266,7 +254,7 @@ const News = () => {
                             fanfare
                           </h3>
                         </div>
-                        {/* END DETAILS */}
+
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
@@ -311,7 +299,7 @@ const News = () => {
                                 artistic heights.
                               </p>
                             </div>
-                            {/* END QUOTEBOX */}
+
                             <p>
                               Pretend everything is new and that you haven’t
                               seen it before, and then you will be free to
@@ -333,20 +321,15 @@ const News = () => {
                           <div className="news_share">
                             <span>Share:</span>
                             <Social />
-                            {/* END SOCIAL */}
                           </div>
-                          {/* END NEWS SHARE */}
                         </div>
-                        {/* END MAIN CONTENT */}
                       </div>
                     </div>
                   </div>
                 </Modal>
-                {/* END MODAL */}
+
               </div>
-              {/* END LIST INNER */}
             </li>
-            {/* END SINGLE BLOG */}
 
             <li
               data-aos="fade-right"
@@ -363,7 +346,6 @@ const News = () => {
                     }}
                   ></div>
                 </div>
-                {/* END IMAGE */}
 
                 <div className="details">
                   <div className="extra">
@@ -382,9 +364,7 @@ const News = () => {
                     </a>
                   </div>
                 </div>
-                {/* END DETAILS */}
 
-                {/* START MODAL */}
                 <Modal
                   isOpen={isOpen3}
                   onRequestClose={toggleModalThree}
@@ -464,7 +444,7 @@ const News = () => {
                                 artistic heights.
                               </p>
                             </div>
-                            {/* END QUOTEBOX */}
+
                             <p>
                               Pretend everything is new and that you haven’t
                               seen it before, and then you will be free to
@@ -486,18 +466,14 @@ const News = () => {
                           <div className="news_share">
                             <span>Share:</span>
                             <Social />
-                            {/* END SCCIAL SHARE */}
                           </div>
                         </div>
-                        {/* END MAIN CONTENT */}
                       </div>
                     </div>
                   </div>
                 </Modal>
               </div>
-              {/* END LIST INNER */}
             </li>
-            {/* END SINGLE BLOG */}
 
             <li
               data-aos="fade-right"
@@ -514,7 +490,6 @@ const News = () => {
                     }}
                   ></div>
                 </div>
-                {/* END IMAGE */}
 
                 <div className="details">
                   <div className="extra">
@@ -523,7 +498,6 @@ const News = () => {
                       <span>22 Jan 2021</span>
                     </p>
                   </div>
-                  {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalFour}>
                     Stay creative in lockdown with these fun photo projects
@@ -534,7 +508,7 @@ const News = () => {
                     </a>
                   </div>
                 </div>
-                {/* END DETAILS */}
+
                 <Modal
                   isOpen={isOpen4}
                   onRequestClose={toggleModalFour}
@@ -547,7 +521,7 @@ const News = () => {
                     <button className="close-modal" onClick={toggleModalFour}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
-                    {/* END CLOSE ICON */}
+
                     <div className="box_inner">
                       <div className="description_wrap scrollable">
                         <div className="image">
@@ -559,7 +533,6 @@ const News = () => {
                             }}
                           ></div>
                         </div>
-                        {/* END IMAGE */}
 
                         <div className="details">
                           <div className="extra">
@@ -573,7 +546,6 @@ const News = () => {
                             projects
                           </h3>
                         </div>
-                        {/* END DETAILS */}
 
                         <div className="main_content ">
                           <div className="descriptions">
@@ -619,7 +591,7 @@ const News = () => {
                                 artistic heights.
                               </p>
                             </div>
-                            {/* END QUOTEBOX */}
+
                             <p>
                               Pretend everything is new and that you haven’t
                               seen it before, and then you will be free to
@@ -641,17 +613,14 @@ const News = () => {
                           <div className="news_share">
                             <span>Share:</span>
                             <Social />
-                            {/* END SOCIAL SHARE */}
                           </div>
                         </div>
-                        {/* END MAIN CONTENT */}
                       </div>
                     </div>
                   </div>
                 </Modal>
-                {/* END MODAL */}
+
               </div>
-              {/* END LIST INNER */}
             </li>
           </ul>
         </div>

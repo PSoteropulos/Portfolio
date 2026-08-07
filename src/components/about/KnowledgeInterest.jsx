@@ -1,5 +1,3 @@
-import React from "react";
-
 const KnowledgeInterest = () => {
   const knowledgeContent = [
     {
@@ -7,12 +5,13 @@ const KnowledgeInterest = () => {
       colClass: "left",
       title: "Development Tools",
       content: [
-        "IDEs and Editors: Visual Studio Code, VIM, IntelliJ, Eclipse/Spring Tool Suite, Rider, Visual Studio",
-        "Version Control: Git, GitHub",
-        "Containerization: Docker",
-        "Package Managers and Build Tools/SDKs: npm, yarn, vite, pip, dotnet, JDK, Maven",
-        "Database Management Tools: MySQL Workbench, MongoDB Atlas and Compass, pgAdmin4",
-        "Deployment Tools: AWS, Google DNS, pm2"
+        "IDEs and Editors: Visual Studio Code, Vim, IntelliJ, Rider",
+        "AI-Assisted Development: Claude Code (agentic dev workflows), LLM API integration (OpenAI)",
+        "Version Control & CI/CD: Git, GitHub, GitHub Actions",
+        "Containerization & IaC: Docker, Docker Compose, Terraform",
+        "Code Quality: ESLint, Prettier, ruff, pytest, Vitest, pre-commit hooks",
+        "Package Managers and Build Tools/SDKs: npm, vite, pip, dotnet, Maven",
+        "Database Management Tools: pgAdmin4, MongoDB Atlas and Compass, MySQL Workbench",
       ],
     },
     {
@@ -20,13 +19,12 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Web Tech and Collaboration",
       content: [
-        "Project Management: Jira, Kanban",
-        "Web Servers: nginx, Apache",
-        "Security Tools: bcrypt, CertBot/SSL, JSON Web Token (JWT)",
-        "APIs and Protocols: REST API, Postman",
-        "Web Technologies: AJAX",
+        "Infra & Deployment: AWS (EC2, S3), Cloudflare Tunnels, Nginx, ELK Stack",
+        "Project Management: Jira, Agile/Scrum",
+        "Security Tools: JSON Web Token (JWT), bcrypt, CertBot/SSL",
+        "APIs and Real-Time: REST API, Socket.io, custom WebSocket/SSE clients, Postman",
         "Communication: Slack, Discord",
-        "Wireframing Tools: Whimsical, Figma, Balsamiq"
+        "Wireframing Tools: Whimsical, Figma, Balsamiq",
       ],
     },
   ];

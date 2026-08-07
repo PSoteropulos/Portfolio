@@ -1,5 +1,3 @@
-import React from "react";
-
 const PersonalInfo = () => {
   const personalInfoContent = [
     {
@@ -39,7 +37,7 @@ const PersonalInfo = () => {
         {
           id: 2,
           name: "Expertise",
-          content: "Full Stack Development",
+          content: "Full Stack Software Engineering",
         },
         // {
         //   id: 3,

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
-import ModalVideo from "react-modal-video";
-import Modal from "react-modal";
 import Social from "./Social";
+import Modal from "react-modal";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const Portfolio = () => {
   // for popup video

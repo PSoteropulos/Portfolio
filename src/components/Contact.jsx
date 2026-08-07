@@ -1,14 +1,15 @@
-import React, { useRef } from "react";
+import Map from "./Map";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Map from "./Map";
 
 const Contact = () => {
   const form = useRef();
+
+  const key = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
   const service = import.meta.env.VITE_EMAILJS_SERVICE_ID
   const template = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
-  const key = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
   const sendEmail = (e) => {
     e.preventDefault();
