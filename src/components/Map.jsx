@@ -1,10 +1,10 @@
-import React from "react";
 import { useState } from "react";
-import {Map as ReactMapGL} from "react-map-gl";
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { Map as ReactMapGL } from "react-map-gl";
 
 const Map = () => {
   const mapToken = import.meta.env.VITE_MAP_TOKEN
+
   const [viewport, setViewport] = useState({
     latitude: 30.199503,
     longitude: -90.120376,

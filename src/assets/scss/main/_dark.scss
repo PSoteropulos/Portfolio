@@ -432,3 +432,9 @@ body.dark .psot_portfolio_pricing .popular {
     background-color: #444;
     color: #eee;
 }
+body.dark .psot_logo_mark {
+    color: #fff;
+}
+body.dark .psot_logo_mark .psot_logo_icon {
+    filter: invert(1);
+}

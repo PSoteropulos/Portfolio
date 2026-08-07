@@ -1,5 +1,3 @@
-import React from "react";
-
 const Resume = () => {
   const resumeContent = [
     {
@@ -23,7 +21,7 @@ const Resume = () => {
           id: 3,
           year: "2004 - 2006",
           institute: "University of Louisiana at Lafayette",
-          degree: "Mechanical Engineering",
+          degree: "Mechanical Engineering / Geology",
         },
         {
           id: 4,
@@ -40,24 +38,30 @@ const Resume = () => {
       resume: [
         {
           id: 1,
-          year: "May 2023 - Current",
-          institute: "Sojourn Creations (Startup)",
+          year: "Apr 2024 - Jul 2026",
+          institute: "Asset Innovation Jeff Martin Auctioneers",
           degree: "Full Stack Software Engineer",
         },
         {
           id: 2,
-          year: "March 2023 - Current",
-          institute: "Salish Marine Charters",
-          degree: "Lead Full Stack Software Engineer",
+          year: "2023 - 2025",
+          institute: "Sojourn Creations (Startup, dissolved)",
+          degree: "Full Stack Developer",
         },
         {
           id: 3,
-          year: "April 2023 - Feb 2024",
+          year: "2023 - 2024",
+          institute: "Salish Marine Charters",
+          degree: "Lead Full Stack Developer",
+        },
+        {
+          id: 4,
+          year: "Mar 2023 - Jan 2024",
           institute: "Coding Dojo (Colorado Technical University)",
           degree: "Developer / Instruction Team",
         },
         {
-          id: 4,
+          id: 5,
           year: "June 2020 - June 2022",
           institute: "Fox Press",
           degree: "Distributions Director",

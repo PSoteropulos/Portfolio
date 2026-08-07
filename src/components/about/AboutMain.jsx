@@ -1,11 +1,9 @@
-import React from "react";
-import Modal from "react-modal";
-// import Testimonial from "./Testimonial";
 import Intro from "./Intro";
-import KnowledgeInterest from "./KnowledgeInterest";
-import PersonalInfo from "./PersonalInfo";
 import Resume from "./Resume";
 import Skills from "./Skills";
+import Modal from "react-modal";
+import PersonalInfo from "./PersonalInfo";
+import KnowledgeInterest from "./KnowledgeInterest";
 
 Modal.setAppElement("#root");
 
@@ -13,8 +11,8 @@ const AboutMain = ({ changeTab }) => {
 
   const handleDownloadClick = () => {
     const link = document.createElement('a');
-    link.href = 'assets/docs/PaulSoteropulosResumeFeb2024.pdf';
-    link.download = 'PaulSoteropulosResumeFeb2024.pdf';
+    link.href = 'assets/docs/Paul_Soteropulos_Resume_Master.pdf';
+    link.download = 'Paul_Soteropulos_Resume_Master.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

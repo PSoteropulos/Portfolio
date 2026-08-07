@@ -1,4 +1,4 @@
-import React from "react";
+import Logo from "../components/Logo";
 import { Link } from "react-router-dom";
 import PageTitle from "../components/PageTitle";
 
@@ -11,7 +11,7 @@ const NotFound = () => {
           <div className="leftpart_inner">
             <div className="logo">
               <Link className="navbar-brand" to="/">
-                <img src="/assets/img/logo/dark.png" alt="brand" />
+                <Logo />
               </Link>
             </div>
             <div className="copyright">
