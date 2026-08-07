@@ -1,5 +1,3 @@
-import React from "react";
-
 const Skills = () => {
   const skillsContent = [
     {
@@ -14,28 +12,28 @@ const Skills = () => {
         // },
 
         {
-          id: 4,
-          skillName: "C#",
-        },
-        {
-          id: 3,
-          skillName: "Java",
+          id: 1,
+          skillName: "JavaScript and TypeScript",
         },
         {
           id: 2,
           skillName: "Python",
         },
         {
-          id: 5,
-          skillName: "HTML5 + CSS3",
+          id: 3,
+          skillName: "Go",
         },
         {
           id: 6,
           skillName: "SQL and NoSQL",
         },
         {
-          id: 1,
-          skillName: `JavaScript and TypeScript`,
+          id: 5,
+          skillName: "HTML5 + CSS3",
+        },
+        {
+          id: 4,
+          skillName: "Java, C#",
         },
       ],
     },
@@ -44,35 +42,25 @@ const Skills = () => {
       colClass: "right",
       title: "Frameworks and Libraries",
       progress: [
-        // {
-        //   id: 1,
-        //   skillName: "English",
-        //   skillValue: "90",
-        // },
-
         {
-          id: 4,
-          skillName: ".NET Core, ASP.NET, Entity Framework, Razor",
-        },
-        {
-          id: 3,
-          skillName: "Spring Boot, Spring MVC, JSP",
+          id: 1,
+          skillName: "React, Next.js, Redux, Vite, TailwindCSS, Sass/SCSS",
         },
         {
           id: 2,
-          skillName: "Django, Flask, Jinja2, Django Template Language",
+          skillName: "Django, Django REST Framework, Flask, Express, Node.js",
         },
         {
-          id: 5,
-          skillName: "Bootstrap, TailwindCSS, Sass/SCSS, ARIA, DOM",
+          id: 3,
+          skillName: "Socket.io, custom WebSocket/SSE clients",
         },
         {
           id: 6,
-          skillName: "MySQL, PostgreSQL, SQLite, MongoDB",
+          skillName: "PostgreSQL (PostGIS, pgbouncer), MongoDB, Redis",
         },
         {
-          id: 1,
-          skillName: "React, NextJS, Express, Mongoose, Redux, Axios, React-router-dom, jQuery, Socket.io",
+          id: 4,
+          skillName: "Spring Boot/MVC, .NET Core, ASP.NET",
         },
       ],
     },
@@ -81,7 +69,7 @@ const Skills = () => {
     <>
       {skillsContent.map((item) => (
         // <div key={item.id}>
-          <div className={item.colClass} key={item.id}>
+        <div className={item.colClass} key={item.id}>
           <div className="psot_section_title">
             <h3>{item.title}</h3>
           </div>

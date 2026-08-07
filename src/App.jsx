@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import AllRoutes from "/src/router/AllRoutes";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 import "photoswipe/dist/photoswipe.css";
+import AllRoutes from "/src/router/AllRoutes";
 import { ToastContainer } from "react-toastify";
 
 const App = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Social from "./Social";
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Paul Soteropulos</h3>
             <p className="job">
-              Meticulous, adaptable software developer with a passion for solving problems and implementing ideas with code.
+              Meticulous, adaptable software engineer with a passion for solving problems and implementing ideas with code.
             </p>
             <Social />
           </div>

@@ -459,6 +459,7 @@ h6 {
 }
 .social {
     margin: 0px;
+    padding-left: 6px;
     list-style-type: none;
 }
 .social li {
@@ -2200,4 +2201,64 @@ body.modal {
         width: 20px;
         height: 20px;
     }
+}
+
+/* Logo mark: circuit icon + wordmark, hover animation */
+.navbar-brand {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-brand:hover {
+    color: inherit;
+}
+.psot_logo_mark {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 40px;
+    color: #767676;
+    text-decoration: none;
+}
+.psot_logo_mark .psot_logo_icon {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    transition: transform 0.6s ease;
+}
+.psot_logo_mark:hover .psot_logo_icon {
+    transform: rotate(360deg);
+}
+.psot_logo_mark .psot_logo_text {
+    position: relative;
+    display: inline-block;
+    height: 1.4em;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.psot_logo_mark .psot_logo_text span {
+    display: block;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+}
+.psot_logo_mark .psot_logo_text .default_text {
+    transform: translateY(0);
+    opacity: 1;
+}
+.psot_logo_mark .psot_logo_text .hover_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.psot_logo_mark:hover .psot_logo_text .default_text {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.psot_logo_mark:hover .psot_logo_text .hover_text {
+    transform: translateY(0);
+    opacity: 1;
 }
