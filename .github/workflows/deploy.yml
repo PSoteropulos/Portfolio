@@ -49,8 +49,9 @@ jobs:
     needs: build-and-push
     runs-on: self-hosted
     steps:
-      - name: Pull latest image and restart
+      - name: Sync repo, pull latest image, and restart
         run: |
           cd ~/apps/psoteropulos
+          git pull
           docker compose pull
           docker compose up -d
