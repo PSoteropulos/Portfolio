@@ -24,6 +24,7 @@ jobs:
       - name: Copy resume PDF into portfolio assets
         run: |
           cp resume-repo/Paul_Soteropulos_Resume_Master.pdf public/assets/docs/Paul_Soteropulos_Resume_Master.pdf
+          rm -rf resume-repo
 
       - name: Open PR with updated resume
         uses: peter-evans/create-pull-request@v6
