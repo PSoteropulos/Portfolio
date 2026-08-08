@@ -1,0 +1,38 @@
+name: Sync Resume from Private Repo
+
+on:
+  repository_dispatch:
+    types: [resume-updated]
+
+jobs:
+  sync-resume:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout Portfolio
+        uses: actions/checkout@v4
+
+      - name: Checkout resume repo
+        uses: actions/checkout@v4
+        with:
+          repository: PSoteropulos/resume
+          token: ${{ secrets.RESUME_REPO_READ_TOKEN }}
+          path: resume-repo
+
+      - name: Copy resume PDF into portfolio assets
+        run: |
+          cp resume-repo/Paul_Soteropulos_Resume_Master.pdf public/assets/docs/Paul_Soteropulos_Resume_Master.pdf
+
+      - name: Open PR with updated resume
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/resume-sync
+          title: "Auto: sync master resume PDF"
+          commit-message: "Sync master resume PDF from private resume repo"
+          body: |
+            Automated PR triggered by an update to the private resume repo (`PSoteropulos/resume`).
+            Review and merge to redeploy the site with the updated resume.
+          delete-branch: true
