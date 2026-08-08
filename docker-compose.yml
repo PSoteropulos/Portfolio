@@ -1,5 +1,6 @@
 services:
   psoteropulos:
+    image: ghcr.io/psoteropulos/portfolio:latest
     build:
       context: .
       args:
