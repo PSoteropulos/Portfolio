@@ -21,9 +21,10 @@ jobs:
           token: ${{ secrets.RESUME_REPO_READ_TOKEN }}
           path: resume-repo
 
-      - name: Copy resume PDF into portfolio assets
+      - name: Copy resume PDFs into portfolio assets
         run: |
           cp resume-repo/Paul_Soteropulos_Resume_Master.pdf public/assets/docs/Paul_Soteropulos_Resume_Master.pdf
+          cp resume-repo/Paul_Soteropulos_Resume_Master_Full.pdf public/assets/docs/Paul_Soteropulos_Resume_Master_Full.pdf
           rm -rf resume-repo
 
       - name: Open PR with updated resume
@@ -31,9 +32,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: auto/resume-sync
-          title: "Auto: sync master resume PDF"
-          commit-message: "Sync master resume PDF from private resume repo"
+          title: "Auto: sync resume PDFs"
+          commit-message: "Sync resume PDFs (tight + full) from private resume repo"
           body: |
             Automated PR triggered by an update to the private resume repo (`PSoteropulos/resume`).
-            Review and merge to redeploy the site with the updated resume.
+            Syncs both `Paul_Soteropulos_Resume_Master.pdf` (/resume) and
+            `Paul_Soteropulos_Resume_Master_Full.pdf` (/resume-full). Review and merge to redeploy
+            the site with the updated resume(s).
           delete-branch: true
